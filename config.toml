@@ -1,0 +1,4 @@
+languageCode = "en-us"
+title = "iCodeCamp"
+baseURL = "http://icodecamp.github.io"
+theme = "iccTheme"
