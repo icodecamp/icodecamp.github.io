@@ -1,60 +1,17 @@
-<style type="text/css">
-
-h2 {
-    font-size: 16px;
-    margin-bottom: 5px;
-    margin-top: 30px;
-    font-weight: 700;
-}
-
-body {
-    font-family: Roboto,sans-serif;
-    line-height: 1.4;
-
-}
-
-p {
-    font-weight: 300;
-}
-
-
-#title {
-    margin-top: 80px;
-    margin-bottom: 5px;
-    font-size: 38px;
-    font-weight: 300;
-    text-align: center;
-}
-
-#subtitle {
-    text-align: center;
-    margin-bottom: 40px;
-    font-size: 18px;
-    margin-top: 10px;
-    font-weight: 300;
-}
-
-</style>
-
 <div class="container" id="contact">
-
-
     <h1 id="title">{{ .Title }}</h1>
     <h2 id="subtitle">simple answers to ease your mind</h2>
-
-
     <div class="row">
         <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
             <section>
                 {{ .Content }}
-
                 {{ if isset .Site.Params "email" }}
                 <blockquote>
                     <p>
                         Have more questions? Send 'em our way.
                     </p>
                 </blockquote>
-
+                
                 <div id="question-message"></div>
 
                 <form class="question-form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
@@ -83,15 +40,10 @@ p {
 
                         </div>
                     </div>
-                    <!-- /.row -->
                 </form>
-
                 {{ end }}
-
             </section>
-
         </div>
     </div>
-    <!-- /.row -->
 </div>
 

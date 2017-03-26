@@ -1,7 +1,7 @@
 {{ if isset .Site.Params "carousel" }}
 {{ if .Site.Params.carousel.enable }}
 {{ if gt (len .Site.Data.carousel) 0 }}
-<section style="margin-bottom:0">
+<section>
     <div class="home-carousel" style="background: url('../{{.Site.Params.carousel.image}}') center center repeat;">
         <div class="dark-mask"></div>
         <div class="container">
