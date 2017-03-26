@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +7,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>iCodeCamp</title>
+  <title>HTML 101</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
+  
+  <meta name="description" content="And when it is said to them, “Believe as the people have believed,” they say, “Shall we believe as the fools have believed?” In fact, it is they who are the fools, but they do not know.">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -46,7 +49,6 @@
 
   <body>
 
-
     <div id="all">
 
         <header>
@@ -58,9 +60,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="http://icodecamp.github.io">
-                    <img src="http://icodecamp.github.ioimg/logo.png" alt="iCodeCamp logo" class="hidden-xs hidden-sm">
-                    <img src="http://icodecamp.github.ioimg/logo-small.png" alt="iCodeCamp logo" class="visible-xs visible-sm">
-                    <span class="sr-only">iCodeCamp - navHome</span>
+                    <img src="http://icodecamp.github.ioimg/logo.png" alt="HTML 101 logo" class="hidden-xs hidden-sm">
+                    <img src="http://icodecamp.github.ioimg/logo-small.png" alt="HTML 101 logo" class="visible-xs visible-sm">
+                    <span class="sr-only">HTML 101 - navHome</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -129,150 +131,56 @@
 
         </header>
 
-        
+        <div id="content">
+            <div class="container">
 
+                <div class="row">
 
-<section style="margin-bottom:0">
-    <div class="home-carousel" style="background: url('../img/carousel/background.jpg') center center repeat;">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Get Creative</h1>
-                            <ul class="list-style-none">
-  <li>Build beutiful applications</li>
-  <li>second filler point</li>
-  <li>third filler point</li>
-</ul>
+                    
+
+                    <div class="col-md-12" id="blog-post">
+
+                        <p class="text-muted text-uppercase mb-small text-right">March 25, 2017</p>
+
+                        <div id="post-content">
+                          
+
+<h2 id="move-static-content-to-static">Move static content to <code>static</code></h2>
+
+<p>Jekyll has a rule that any directory not starting with <code>_</code> will be copied as-is to the <code>_site</code> output. Hugo keeps all static content under <code>static</code>. You should therefore move it all there.
+With Jekyll, something that looked like</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ images/
+        logo.png
+</code></pre>
+
+<p>should become</p>
+
+<pre><code>▾ &lt;root&gt;/
+    ▾ static/
+        ▾ images/
+            logo.png
+</code></pre>
+
+<p>Additionally, you&rsquo;ll want any files that should reside at the root (such as <code>CNAME</code>) to be moved to <code>static</code>.</p>
 
                         </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/creativity.png" alt="">
-                        </div>
+                        
+                        
+
                     </div>
+                    
+
+                    
+
                 </div>
                 
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Give Back</h1>
-                            <ul class="list-style-none">
-   <li>stuff about helping out people</li>
- </ul>
 
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/giveBack.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                
             </div>
             
         </div>
-    </div>
-</section>
-
-
-
-
-
         
-
-<section class="bar no-mb">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="text-uppercase">Code Camp</h3>
-                <p class="lead">is a something something that allows something to something. Somethings benefit something something and something something something something. You&#39;ll something something something something.</p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-        
-
-
-<section class="bar background-image-fixed-2 no-mb color-white text-center">
-    <div class="dark-mask"></div>
-    <div class="container">
-        
-		
-		<div class="col-md-12">
-            <div class="row">
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-globe"></i>
-                        </div>
-                        <h3>Full Stack Development</h3>
-                        <p>Praesent a efficitur ex. Donec condimentum vehicula nunc, vitae posuere purus feugiat eu.</p>
-                    </div>
-                </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-user"></i>
-                        </div>
-                        <h3>UI/UX</h3>
-                        <p>Quisque eros dui, pharetra vel maximus vel, maximus ut nisl. Nam posuere suscipit eros id pretium. Duis in sem ante. Etiam pretium commodo magna id aliquet.</p>
-                    </div>
-                </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                        <h3>Version Control</h3>
-                        <p>Duis mollis justo posuere turpis bibendum, ut porta nisi convallis. Fusce ac faucibus nulla. Etiam bibendum nisi eu turpis fermentum mattis.</p>
-                    </div>
-                </div>
-		
-			</div>
-		</div>
-		
-        
-    </div>
-</section>
-
-
-
-
-
-        
-
-<section class="bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="text-uppercase">Interested?</h3>
-                <p class="lead">The program is avaible something something for something chicagoland something at something...</p>
-                <p class="text-center">
-                    <a href="/faq/" class="btn btn btn-template-main btn-lg"><i class="fa fa-question-circle"></i>FAQs</a>
-                    <a href="/apply/" class="btn btn btn-template-main btn-lg"><i class="fa fa-thumbs-o-up"></i>Apply</a>
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
 
         
 <style type="text/css">

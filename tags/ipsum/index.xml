@@ -1,53 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>iCodeCamp</title>
-    <link>http://icodecamp.github.io/index.xml</link>
-    <description>Recent content on iCodeCamp</description>
+    <title>Ipsum on iCodeCamp</title>
+    <link>http://icodecamp.github.io/tags/ipsum/index.xml</link>
+    <description>Recent content in Ipsum on iCodeCamp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2017 iCodeCamp</copyright>
-    <lastBuildDate>Sat, 25 Mar 2017 10:22:51 -0500</lastBuildDate>
-    <atom:link href="http://icodecamp.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>HTML 101</title>
-      <link>http://icodecamp.github.io/lessons/html-basics/</link>
-      <pubDate>Sat, 25 Mar 2017 10:22:51 -0500</pubDate>
-      
-      <guid>http://icodecamp.github.io/lessons/html-basics/</guid>
-      <description>
-
-&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;should become&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>http://icodecamp.github.io/lessons/javascript/</link>
-      <pubDate>Sat, 25 Mar 2017 23:01:00 -0500</pubDate>
-      
-      <guid>http://icodecamp.github.io/lessons/javascript/</guid>
-      <description></description>
-    </item>
+    <atom:link href="http://icodecamp.github.io/tags/ipsum/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Getting started</title>
@@ -223,65 +183,6 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
 &lt;h2 id=&#34;a-practical-example-in-a-diff&#34;&gt;A practical example in a diff&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://heyitsalex.net/&#34;&gt;Hey, it&amp;rsquo;s Alex&lt;/a&gt; was migrated in less than a &lt;em&gt;father-with-kids day&lt;/em&gt; from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34;&gt;diff&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Application</title>
-      <link>http://icodecamp.github.io/apply/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://icodecamp.github.io/apply/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada in urna rhoncus eleifend. Donec iaculis vitae leo sed tempor. Ut non quam accumsan, hendrerit nunc in, molestie elit. Nunc suscipit tincidunt sapien eget egestas. Vestibulum blandit lacus nisi, sed convallis tortor faucibus nec. Fusce tempus eu ex nec malesuada. Quisque eu maximus metus. Nulla lacinia, mauris et blandit euismod, eros mauris consectetur eros, a rhoncus lacus lectus in diam. Nullam mollis velit orci, eget congue dolor bibendum eu. Curabitur semper ultrices sapien ac ultrices. In hac habitasse platea dictumst. Pellentesque vel enim non purus condimentum posuere vel a risus.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Requirement1:&lt;/strong&gt; something something&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Time commitment:&lt;/strong&gt; 10 hours per week&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Location:&lt;/strong&gt; jdsfkldsafldsa&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Frequent Questions</title>
-      <link>http://icodecamp.github.io/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://icodecamp.github.io/faq/</guid>
-      <description>
-
-&lt;h2 id=&#34;important-question&#34;&gt;Important question?&lt;/h2&gt;
-
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;super-important-question&#34;&gt;Super important question?&lt;/h2&gt;
-
-&lt;p&gt;Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.&lt;/p&gt;
-
-&lt;h2 id=&#34;super-duper-important-question&#34;&gt;Super duper important question?&lt;/h2&gt;
-
-&lt;p&gt;Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch.&lt;/p&gt;
-
-&lt;h2 id=&#34;omg-so-important-i-can-even-question&#34;&gt;Omg so important, I can even question?&lt;/h2&gt;
-
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lorem ipsum dolor sit amet, consectetuer adipiscing elit.&lt;/li&gt;
-&lt;li&gt;Aliquam tincidunt mauris eu risus.&lt;/li&gt;
-&lt;li&gt;Vestibulum auctor dapibus neque.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;another-important-question&#34;&gt;Another important question?&lt;/h2&gt;
-
-&lt;p&gt;Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.&lt;/p&gt;
-
-&lt;hr /&gt;
 </description>
     </item>
     

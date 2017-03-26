@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>iCodeCamp</title>
+  <title>Application</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
@@ -46,7 +46,6 @@
 
   <body>
 
-
     <div id="all">
 
         <header>
@@ -58,9 +57,9 @@
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand home" href="http://icodecamp.github.io">
-                    <img src="http://icodecamp.github.ioimg/logo.png" alt="iCodeCamp logo" class="hidden-xs hidden-sm">
-                    <img src="http://icodecamp.github.ioimg/logo-small.png" alt="iCodeCamp logo" class="visible-xs visible-sm">
-                    <span class="sr-only">iCodeCamp - navHome</span>
+                    <img src="http://icodecamp.github.ioimg/logo.png" alt="Application logo" class="hidden-xs hidden-sm">
+                    <img src="http://icodecamp.github.ioimg/logo-small.png" alt="Application logo" class="visible-xs visible-sm">
+                    <span class="sr-only">Application - navHome</span>
                 </a>
                 <div class="navbar-buttons">
                     <button type="button" class="navbar-toggle btn-template-main" data-toggle="collapse" data-target="#navigation">
@@ -129,150 +128,139 @@
 
         </header>
 
-        
+        <div id="content">
+            
+
+              <style type="text/css">
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+body {
+    font-family: Roboto,sans-serif;
+    line-height: 1.4;
+}
+
+p {
+    font-weight: 300;
+}
+
+#title {
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+</style>
+
+<div class="container" id="contact">
+
+    <h1 id="title">Application</h1>
+    <h2 id="subtitle">are you ready for adventure?</h2>
 
 
-<section style="margin-bottom:0">
-    <div class="home-carousel" style="background: url('../img/carousel/background.jpg') center center repeat;">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
-                
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Get Creative</h1>
-                            <ul class="list-style-none">
-  <li>Build beutiful applications</li>
-  <li>second filler point</li>
-  <li>third filler point</li>
+
+    <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
+
+            <section>
+
+                <div class="intro">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris malesuada in urna rhoncus eleifend. Donec iaculis vitae leo sed tempor. Ut non quam accumsan, hendrerit nunc in, molestie elit. Nunc suscipit tincidunt sapien eget egestas. Vestibulum blandit lacus nisi, sed convallis tortor faucibus nec. Fusce tempus eu ex nec malesuada. Quisque eu maximus metus. Nulla lacinia, mauris et blandit euismod, eros mauris consectetur eros, a rhoncus lacus lectus in diam. Nullam mollis velit orci, eget congue dolor bibendum eu. Curabitur semper ultrices sapien ac ultrices. In hac habitasse platea dictumst. Pellentesque vel enim non purus condimentum posuere vel a risus.</p>
+
+<ul>
+<li><strong>Requirement1:</strong> something something</li>
+<li><strong>Time commitment:</strong> 10 hours per week</li>
+<li><strong>Location:</strong> jdsfkldsafldsa<br /></li>
 </ul>
 
-                        </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/creativity.png" alt="">
-                        </div>
-                    </div>
                 </div>
+
                 
-                <div class="item">
+                <div id="application-message"></div>
+
+                <form class="application-form" method="post" action="https://formspree.io/tdhanani3@gmail.com">
                     <div class="row">
-                        <div class="col-sm-5 right">
-                            <h1>Give Back</h1>
-                            <ul class="list-style-none">
-   <li>stuff about helping out people</li>
- </ul>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                              <label for="name">first and last</label>
+                                <input type="text" class="form-control" name="name" id="name" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="email">email</label>
+                                <input type="text" class="form-control" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">question1</label>
+                                <textarea id="question1" class="form-control" name="question1" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">question2</label>
+                                <textarea id="question2" class="form-control" name="question2" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">question3</label>
+                                <textarea id="question3" class="form-control" name="question3" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12">
+                            <div class="form-group">
+                              <label for="message">question4</label>
+                                <textarea id="question4" class="form-control" name="question4" required></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-12 text-center">
+                          <button type="submit" class="btn btn-template-main"><i class="fa fa-paper-plane"></i>submit</button>
 
                         </div>
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="img/carousel/giveBack.png" alt="">
-                        </div>
                     </div>
-                </div>
+                    
+                </form>
+
                 
-            </div>
+
+            </section>
+
+        </div>
+
+
+    </div>
+    
+</div>
+
+
+
             
         </div>
-    </div>
-</section>
-
-
-
-
-
         
-
-<section class="bar no-mb">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="text-uppercase">Code Camp</h3>
-                <p class="lead">is a something something that allows something to something. Somethings benefit something something and something something something something. You&#39;ll something something something something.</p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
-
-        
-
-
-<section class="bar background-image-fixed-2 no-mb color-white text-center">
-    <div class="dark-mask"></div>
-    <div class="container">
-        
-		
-		<div class="col-md-12">
-            <div class="row">
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-globe"></i>
-                        </div>
-                        <h3>Full Stack Development</h3>
-                        <p>Praesent a efficitur ex. Donec condimentum vehicula nunc, vitae posuere purus feugiat eu.</p>
-                    </div>
-                </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-user"></i>
-                        </div>
-                        <h3>UI/UX</h3>
-                        <p>Quisque eros dui, pharetra vel maximus vel, maximus ut nisl. Nam posuere suscipit eros id pretium. Duis in sem ante. Etiam pretium commodo magna id aliquet.</p>
-                    </div>
-                </div>
-		
-        
-		
-				<div class="col-md-4">
-                    <div class="box-simple">
-                        <div class="icon">
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                        <h3>Version Control</h3>
-                        <p>Duis mollis justo posuere turpis bibendum, ut porta nisi convallis. Fusce ac faucibus nulla. Etiam bibendum nisi eu turpis fermentum mattis.</p>
-                    </div>
-                </div>
-		
-			</div>
-		</div>
-		
-        
-    </div>
-</section>
-
-
-
-
-
-        
-
-<section class="bar">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="text-uppercase">Interested?</h3>
-                <p class="lead">The program is avaible something something for something chicagoland something at something...</p>
-                <p class="text-center">
-                    <a href="/faq/" class="btn btn btn-template-main btn-lg"><i class="fa fa-question-circle"></i>FAQs</a>
-                    <a href="/apply/" class="btn btn btn-template-main btn-lg"><i class="fa fa-thumbs-o-up"></i>Apply</a>
-                </p>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-
-
 
         
 <style type="text/css">
