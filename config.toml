@@ -2,3 +2,69 @@ languageCode = "en-us"
 title = "iCodeCamp"
 baseURL = "http://icodecamp.github.io"
 theme = "iccTheme"
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Lessons"
+    url  = "/lessons/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    name = "Application"
+    identifier = "apply"
+    url  = "/apply/"
+    weight = 4
+
+[params]
+    # for the application form
+    email = "tdhanani3@gmail.com"
+
+    copyright = "Copyright © 2017 iCodeCamp"
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+
+[Permalinks]
+    lessons = "/lessons/:filename/"
+
+[params.carousel]
+    enable = true
+    image = "img/carousel/background.jpg"
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.about]
+    enable = true
+    title = "Code Camp"
+    subtitle = "is a something something that allows something to something. Somethings benefit something something and something something something something. You'll something something something something."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.interested]
+    enable = true
+    title = "Interested?"
+    subtitle = "The program is avaible something something for something chicagoland something at something..."

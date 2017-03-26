@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <style type="text/css">
+  h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+body {
+    font-family: Roboto,sans-serif;
+    line-height: 1.4;
+}
+
+p {
+    font-weight: 300;
+}
+
+#title {
+    margin-top: 80px;
+    margin-bottom: 5px;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center;
+}
+
+#subtitle {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.intro {
+    margin-bottom: 40px;
+}
+
+    .lessonCard {
+      box-shadow: 0 0 10px 0 rgba(46, 60, 73, 0.1);
+      margin-bottom:20px;
+      padding: 20px;
+      display: flex;
+      flex-flow: row;
+      min-height: 200px;
+      width: 100%
+    }
+
+    .lessonInfo {
+      float: left;
+      width: 60%;
+    }
+
+    .lessonInfo > .btn {
+      display: block;
+          margin: auto;
+          width: 140px;
+    }
+
+    .lessonInfo > .subtitle {
+          font-size: 12px;
+        color: #7d97ad;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        line-height: 1.3;
+    }
+
+    .lessonInfo > .title {
+          color: #2e3d49;
+        font-size: 18px;
+        font-weight: normal;
+        line-height: 1.4;
+        margin-top: 8px;
+    }
+
+    .lessonInfo > .description {
+          color: #2e3d49;
+        line-height: 1.8;
+        font-size: 14px;
+        margin: 10px 0 30px;
+    }
+
+    .lessonImage {
+      float: right;
+      height: 100%;
+      display:block;
+      width: 40%
+    }
+
+    .lessonImage > img {
+        max-width:100%;
+        max-height:100%;
+        margin:auto;
+        padding: 30px;
+    }
+
+    @media (max-width: 767px) {                  
+       .hide-when-small {
+          display: none;
+       }
+
+       .full-when-small {
+        width: 100%;
+       }
+
+    }
+  </style>
+  <body>
+    <div id="all">
+      <header> {{ partial "nav.html" . }} </header>
+      <h1 id="title">{{ .Title }}</h1>
+      <h2 id="subtitle">what's stopping you?</h2>
+      <div class="container">
+        <div class="lessonList" style="margin-bottom: 50px;">
+          {{ $paginator := .Paginate (where .Data.Pages "Type" "lessons") }}
+          {{ range $paginator.Pages }}
+          <div class="lessonCard">
+            <div class="lessonInfo full-when-small">
+              <h2 class="subtitle">{{ .Params.category }}</h2>
+              <h1 class="title">{{ .Title }}</h1>
+              <p class="description">{{ .Params.description }}</p>
+              <a href="{{ .Permalink }}" class="btn btn-template-main">View Lesson</a>
+            </div>
+            <div class="lessonImage hide-when-small">
+              {{ if .Params.bannerImage }}
+              <img src="{{ .Site.BaseURL}}{{ .Params.bannerImage }}">
+              {{ else }}
+              <img src="{{ .Site.BaseURL}}img/placeholder.png">
+              {{ end }}
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <ul class="pager">
+            {{ if .Paginator.HasPrev }}
+            <li class="previous"><a href="{{ .Site.BaseURL }}{{ .Paginator.Prev.URL }}">&larr; Newer</a></li>
+            {{ else }}
+            <li class="previous disabled"><a href="#">&larr; Newer</a></li>
+            {{ end }}
+
+            {{ if .Paginator.HasNext }}
+            <li class="next"><a href="{{ .Site.BaseURL }}{{ .Paginator.Next.URL }}">Older &rarr;</a></li>
+            {{ else }}
+            <li class="next disabled"><a href="#">Older &rarr;</a></li>
+            {{ end }}
+        </ul>
+      </div>
+    {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
