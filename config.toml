@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "iCodeCamp"
-baseURL = "http://icodecamp.github.io"
+baseURL = "https://icodecamp.github.io/"
 theme = "iccTheme"
 
 # Define the number of posts per page
