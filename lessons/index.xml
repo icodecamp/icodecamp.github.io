@@ -188,42 +188,21 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     </item>
     
     <item>
-      <title>HTML 101</title>
-      <link>https://icodecamp.github.io/lessons/html-basics/</link>
-      <pubDate>Sat, 25 Mar 2017 10:22:51 -0500</pubDate>
+      <title>Working with Git</title>
+      <link>https://icodecamp.github.io/lessons/git/</link>
+      <pubDate>Sun, 02 Apr 2017 10:22:51 -0500</pubDate>
       
-      <guid>https://icodecamp.github.io/lessons/html-basics/</guid>
+      <guid>https://icodecamp.github.io/lessons/git/</guid>
       <description>
 
-&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;what-is-github&#34;&gt;What is GitHub?&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
+&lt;h2 id=&#34;how-to-install-github&#34;&gt;How to Install GitHub&lt;/h2&gt;
 
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;must-know-commands&#34;&gt;Must Know Commands&lt;/h2&gt;
 
-&lt;p&gt;should become&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Javascript</title>
-      <link>https://icodecamp.github.io/lessons/javascript/</link>
-      <pubDate>Sat, 25 Mar 2017 23:01:00 -0500</pubDate>
-      
-      <guid>https://icodecamp.github.io/lessons/javascript/</guid>
-      <description></description>
     </item>
     
   </channel>
