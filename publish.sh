@@ -13,7 +13,7 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "Checking out latest branch"
-git worktree add -B master public upstream/master
+git worktree add -B master public master
 
 echo "Removing existing files"
 rm -rf public/*
