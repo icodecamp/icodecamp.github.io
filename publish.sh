@@ -6,20 +6,22 @@ then
     exit 1;
 fi
 
-echo "Deleting old publication"
+echo "Step 1: Deleting old publication"
 rm -rf public
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo "Checking out latest branch"
+echo "Step 2: Checking out latest branch"
 git worktree add -B master public master
 
-echo "Removing existing files"
+echo "Step 3: Removing existing files"
 rm -rf public/*
 
-echo "Generating site and content"
+echo "Step 4: Generating site and content"
 hugo
 
-echo "Publishing changes to master branch"
-cd public && git add --all && git commit -m "Publishing to master (publish.sh)"
+echo "Step 5: Uploading changes to github"
+cd public && git add --all && git commit -m "Publishing to master (publish.sh)" && git push
+
+echo "Process complete"
