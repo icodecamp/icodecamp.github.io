@@ -7,8 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2017 iCodeCamp</copyright>
-    <lastBuildDate>Sat, 25 Mar 2017 08:06:32 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 22 Apr 2017 10:20:59 -0500</lastBuildDate>
     <atom:link href="https://icodecamp.github.io/lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Week 1: Introduction and Basic</title>
+      <link>https://icodecamp.github.io/lessons/week1/</link>
+      <pubDate>Sat, 22 Apr 2017 10:20:59 -0500</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/week1/</guid>
+      <description>
+
+&lt;h2 id=&#34;why-learn-programming&#34;&gt;Why learn programming?&lt;/h2&gt;
+
+&lt;h2 id=&#34;is-everyone-setup-with-python&#34;&gt;Is everyone setup with Python?&lt;/h2&gt;
+
+&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+
+&lt;h2 id=&#34;what-is-github&#34;&gt;What is GitHub?&lt;/h2&gt;
+
+&lt;h2 id=&#34;lets-make-your-first-push-to-github&#34;&gt;Lets make your first push to github&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Week 2: Data Structures</title>
+      <link>https://icodecamp.github.io/lessons/week2/</link>
+      <pubDate>Sat, 22 Apr 2017 10:14:21 -0500</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/week2/</guid>
+      <description>
+
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+
+&lt;h2 id=&#34;dictionaries&#34;&gt;Dictionaries&lt;/h2&gt;
+
+&lt;h2 id=&#34;practice-exercise-1&#34;&gt;Practice Exercise 1&lt;/h2&gt;
+
+&lt;h2 id=&#34;practice-exercise-2&#34;&gt;Practice Exercise 2&lt;/h2&gt;
+</description>
+    </item>
     
     <item>
       <title>Getting started</title>
