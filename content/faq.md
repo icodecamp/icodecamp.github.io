@@ -1,36 +1,34 @@
 +++
 title = "Frequent Questions"
-subtitle = ""
+subtitle = "simple answers to ease your mind"
 id = "faq"
 +++
 
-## Important question?
+## What are the dates for Code Camp?
 
-Testing publish script!!!
+Camp dates are May 25 to August 10, 2017. You should choose one date for each lesson:
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+* Lesson one: May 25 and/or June 1
+* Lesson two: June 8 and/or June 15
+* Lesson three: June 22 and/or June 29
+* Lesson four: July 6 and/or July 13
+* Lesson five: July 20 and/or July 27
+* Lesson six: August 3 and/or August 10
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
+## Why are there two classes for each lesson?
 
-## Super important question?
+Some of the feedback we got after our pilot Code Camp in 2016 was that it is difficult for students to complete the course in the summer because of travel plans and jamati activities. Providing two dates for each lesson allows students to plan their attendance at Camp around any travel plans they may already have. This also allows students to attend a lesson twice to review concepts or spend extra time with instructors for a particularly difficult lesson. 
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+## Where are classes held?
 
-## Super duper important question?
+Each class will be held in Chicago Ismaili Jamatkhana social hall. 
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. 
+## How are classes structured?
 
-## Omg so important, I can even question?
+Each class will cover an important programming or Python concept. You will be required to complete homework assignments and "push" code to Github -- this means your code will be sent to a public folder where your instructors for review.
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+## Who are the instructors?
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
-
-## Another important question?
-
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
+Your instructors this year are Khurram Ghulamani, Danish Noorani and Taufiq Dhanani.
 
 ---
