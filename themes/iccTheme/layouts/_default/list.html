@@ -12,7 +12,7 @@
           {{ range $paginator.Pages }}
           <div class="lessonCard">
             <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">{{ .Params.category }}</h2>
+              <h2 class="subtitle">{{ .Params.subtitle }}</h2>
               <h1 class="title">{{ .Title }}</h1>
               <p class="description">{{ .Params.description }}</p>
               <a href="{{ .Permalink }}" class="btn btn-template-main">View Lesson</a>

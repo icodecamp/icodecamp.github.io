@@ -1,6 +1,9 @@
 +++
+weight = 0.0
 tags = []
-category = ""
+title = ""
+subtitle = ""
 description = ""
 bannerImage = ""
+isBeta = true
 +++
