@@ -12,7 +12,7 @@ mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo "Step 2: Checking out latest branch"
+echo "Step 2: Setting up worktree to public content"
 git worktree add -B master public master
 
 echo "Step 3: Removing existing files"
