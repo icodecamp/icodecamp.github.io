@@ -226,6 +226,8 @@ ul.list-style-none {
 }
 
 
+
+
 /* buttons  */
 .btn {
     font-weight: 700;
@@ -476,13 +478,8 @@ ul.list-style-none {
         margin-left: 0;
     }
 }
-@media (min-width: 768px) {} @media (min-width: 768px) {} .navbar-brand {
-    float: left;
-    padding: 10px 15px;
-    font-size: 18px;
-    line-height: 20px;
-    height: 62px;
-}
+
+
 .navbar-brand:hover,
 .navbar-brand:focus {
     text-decoration: none;
@@ -565,6 +562,24 @@ ul.list-style-none {
     border-color: #cccccc;
     border-bottom: none;
 }
+
+.navbar-brand {
+    background: url('../img/logo.png');
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-size: 200px 30px;
+    height: 30px;
+    width: 200px;
+}
+
+.navbar-brand :hover {
+    background-color: red; 
+    height: 200px;
+    width: 600px;
+}
+
 .navbar-default .navbar-brand {
     color: #555555;
 }

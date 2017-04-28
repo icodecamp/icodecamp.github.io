@@ -7,53 +7,14 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2017 iCodeCamp</copyright>
-    <lastBuildDate>Sat, 22 Apr 2017 10:20:59 -0500</lastBuildDate>
     <atom:link href="https://icodecamp.github.io/lessons/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Week 1: Introduction and Basic</title>
-      <link>https://icodecamp.github.io/lessons/week1/</link>
-      <pubDate>Sat, 22 Apr 2017 10:20:59 -0500</pubDate>
-      
-      <guid>https://icodecamp.github.io/lessons/week1/</guid>
-      <description>
-
-&lt;h2 id=&#34;why-learn-programming&#34;&gt;Why learn programming?&lt;/h2&gt;
-
-&lt;h2 id=&#34;is-everyone-setup-with-python&#34;&gt;Is everyone setup with Python?&lt;/h2&gt;
-
-&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
-
-&lt;h2 id=&#34;what-is-github&#34;&gt;What is GitHub?&lt;/h2&gt;
-
-&lt;h2 id=&#34;lets-make-your-first-push-to-github&#34;&gt;Lets make your first push to github&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Week 2: Data Structures</title>
-      <link>https://icodecamp.github.io/lessons/week2/</link>
-      <pubDate>Sat, 22 Apr 2017 10:14:21 -0500</pubDate>
-      
-      <guid>https://icodecamp.github.io/lessons/week2/</guid>
-      <description>
-
-&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
-
-&lt;h2 id=&#34;dictionaries&#34;&gt;Dictionaries&lt;/h2&gt;
-
-&lt;h2 id=&#34;practice-exercise-1&#34;&gt;Practice Exercise 1&lt;/h2&gt;
-
-&lt;h2 id=&#34;practice-exercise-2&#34;&gt;Practice Exercise 2&lt;/h2&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Getting started</title>
-      <link>https://icodecamp.github.io/lessons/getting-started/</link>
-      <pubDate>Sat, 25 Mar 2017 08:06:32 -0500</pubDate>
+      <link>https://icodecamp.github.io/lessons/0-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://icodecamp.github.io/lessons/getting-started/</guid>
+      <guid>https://icodecamp.github.io/lessons/0-introduction/</guid>
       <description>
 
 &lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
@@ -227,10 +188,10 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     
     <item>
       <title>Working with Git</title>
-      <link>https://icodecamp.github.io/lessons/git/</link>
-      <pubDate>Sun, 02 Apr 2017 10:22:51 -0500</pubDate>
+      <link>https://icodecamp.github.io/lessons/1-git-terminal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://icodecamp.github.io/lessons/git/</guid>
+      <guid>https://icodecamp.github.io/lessons/1-git-terminal/</guid>
       <description>
 
 &lt;h2 id=&#34;what-is-github&#34;&gt;What is GitHub?&lt;/h2&gt;
@@ -240,6 +201,117 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
 &lt;h2 id=&#34;must-know-commands&#34;&gt;Must Know Commands&lt;/h2&gt;
 
 &lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Variables and Functions</title>
+      <link>https://icodecamp.github.io/lessons/2-variables-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/2-variables-functions/</guid>
+      <description>
+
+&lt;h2 id=&#34;why-learn-programming&#34;&gt;Why learn programming?&lt;/h2&gt;
+
+&lt;h2 id=&#34;is-everyone-setup-with-python&#34;&gt;Is everyone setup with Python?&lt;/h2&gt;
+
+&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+
+&lt;h2 id=&#34;what-is-github&#34;&gt;What is GitHub?&lt;/h2&gt;
+
+&lt;h2 id=&#34;lets-make-your-first-push-to-github&#34;&gt;Lets make your first push to github&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>https://icodecamp.github.io/lessons/3-data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/3-data-structures/</guid>
+      <description>
+
+&lt;!-- 
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+ --&gt;
+
+&lt;p&gt;need some sort of intro!  Unit testing&lt;/p&gt;
+
+&lt;h1 id=&#34;what-are-data-structures&#34;&gt;What are Data Structures?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/data_structures.html&#34;&gt;&lt;strong&gt;Data Structures&lt;/strong&gt;&lt;/a&gt;
+are used to store and organize data. Throughout this course, we will be covering four data
+structures that are built into python.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/strings.html&#34;&gt;strings&lt;/a&gt; are
+&lt;em&gt;immutable&lt;/em&gt; ordered sequences of characters&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;stringy= &amp;quot;giordanos is better than lou malnatis!&amp;quot;
+len(stringy)
+stringy[12] 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/lists.html&#34;&gt;lists&lt;/a&gt; are  &lt;em&gt;mutable&lt;/em&gt;
+ordered sequences of any type of object&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;listy = [1.0, 2, 3, &amp;quot;a&amp;quot;, &amp;quot;bee&amp;quot;, &amp;quot;see&amp;quot;, true]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/tuples.html&#34;&gt;tuples&lt;/a&gt; are
+&lt;em&gt;immutable&lt;/em&gt; ordered sequences of any type of object&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;tupley = (1.0, 2, 3, &amp;quot;a&amp;quot;, &amp;quot;bee&amp;quot;, &amp;quot;see&amp;quot;, true)  
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/dicts.html&#34;&gt;dictionaries&lt;/a&gt; map a key
+object to a value object. The objects don&amp;rsquo;t necessarily have to be the same. The pairs
+are not organized and we can&amp;rsquo;t have duplicate keys&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;dicty = { &amp;quot;a&amp;quot; : &amp;quot;apple&amp;quot;, &amp;quot;b&amp;quot; : &amp;quot;banana&amp;quot;, &amp;quot;h&amp;quot; : &amp;quot;Harambe&amp;quot; }
+dicty2 = { 1 : &amp;quot;one&amp;quot;, &amp;quot;two&amp;quot; : 2, False : True }
+dicty[&amp;quot;a&amp;quot;]
+del dicty[&amp;quot;b&amp;quot;]
+dicty.update(dicty2)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Activity Use indexes (especially zero index) Use keys to update your score&lt;/p&gt;
+
+&lt;h1 id=&#34;what-are-loops&#34;&gt;What are Loops?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Definition&lt;/p&gt;
+
+&lt;h5 id=&#34;for-loop-while-loop-range-break-continue-activity-find-sum&#34;&gt;For Loop ##### While Loop ##### Range ##### Break ##### continue Activity: Find sum&lt;/h5&gt;
+
+&lt;p&gt;and average of a set of numbers in an array&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;what-is-flow-control&#34;&gt;What is Flow Control?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Definition&lt;/p&gt;
+
+&lt;h5 id=&#34;if-else-if-else&#34;&gt;If ##### Else if ##### Else&lt;/h5&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Activity: Finding largest and smallest number in an unsorted array&lt;/p&gt;
+
+&lt;h1 id=&#34;activity-activity-while-true-user-types-in-a-string-then-you-add-the-string-to-an&#34;&gt;Activity Activity While (true): User types in a string, then you add the string to an&lt;/h1&gt;
+
+&lt;p&gt;array, and then you speak outloud all strings in array as a sentence If user types in
+“exit” quit program Function that takes in a string and actually reads it out loud
+Introduce assignment and clear up confusion About pixels (RBG) Double for loops&lt;/p&gt;
+
+&lt;h1 id=&#34;project-mini-project-to-push-to-github-photo-manipulation-select-an-image-the-program&#34;&gt;Project Mini-project to push to Github Photo manipulation Select an image, the program&lt;/h1&gt;
+
+&lt;p&gt;will loop through all pixels and edit the blue value by 10% or something and make the
+image more blue Optional part 2: rotate the image or something TODO: For pixels in x For
+pixels in y pixel(x,y)[2] = pixel(x,y)[2] * 1.5&lt;/p&gt;
 </description>
     </item>
     
