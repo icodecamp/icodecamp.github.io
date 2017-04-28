@@ -22,6 +22,6 @@ echo "Step 4: Generating site and content"
 hugo
 
 echo "Step 5: Uploading changes to github"
-cd public && git add --all && git commit -m "Publishing to master (publish.sh)" && git push -f
+cd public && git add --all && git commit -m "Publishing to master (publish.sh)" && git push origin master --force
 
 echo "Process complete"
