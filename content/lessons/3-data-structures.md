@@ -4,8 +4,8 @@ tags = []
 title = "Data Structures"
 subtitle = "Module 3"
 description = "Learn about lists and dictionaries" 
-bannerImage = ""
-isBeta = true 
+bannerImage = "img/banners/image.png"
+isBeta = false 
 +++
 
 <!-- {{< youtube w7Ft2ymGmfc >}} -->
@@ -54,13 +54,19 @@ Activity Use indexes (especially zero index) Use keys to update your score
 
 # What are Loops?
 >Definition 
-##### For Loop ##### While Loop ##### Range ##### Break ##### continue Activity: Find sum
+##### For Loop
+##### While Loop
+##### Range
+##### Break
+##### continue Activity: Find sum
 and average of a set of numbers in an array
 
 
 # What is Flow Control?
 >Definition 
-##### If ##### Else if ##### Else
+##### If
+##### Else if
+##### Else
 
 Activity: Finding largest and smallest number in an unsorted array
 
