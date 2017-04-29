@@ -1,5 +1,5 @@
 +++
-title = "code camp 2017"
+title = "Application"
 subtitle = "make your summer productive"
 id = "apply"
 +++
