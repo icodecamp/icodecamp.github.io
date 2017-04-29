@@ -4,19 +4,21 @@ tags = []
 title = "Variables and Functions"
 subtitle = "Module 2"
 description = "Time to get up and running and learn the basics"
-bannerImage = ""
-isBeta = true
+bannerImage = "img/banners/data.png"
+isBeta = true 
 +++
 
 ## What is a programming language?
 
-> Humans use languages (English, Urdu, Arabic) to communicate with each other. A program is a set of instructions that tells > a computer what to do. Programs are written using a programming language. A programming language, then, is used by
-> humans to communicate with computers. 
+> Humans use languages (English, Urdu, Arabic) to communicate with each other. A program
+> is a set of instructions that tells a computer what to do. Programs are written using
+> a programming language. A programming language, then, is used by humans to communicate
+> with computers. 
 
 > There is still a language barrier between computers and humans. Computers understand machine language. Machine language
 > is often times platform specific. Code generated on one machine may not run on another machine. Machine language
 > looks like this:
-
+>
 ~~~
 | Instruction Binary Code  | 
 | 0010 0001 0000 0100  | 
