@@ -1,0 +1,18 @@
+name = "IccTheme"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE.md"
+description = "Theme for the iCC project"
+homepage = "https://icodecamp.github.io/"
+tags = ["code", "camp"]
+features = ["themes"]
+min_version = 0.19
+
+[author]
+  name = "Taufiq Dhanani"
+  homepage = "http://dhanani94.me/"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

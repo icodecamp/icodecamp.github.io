@@ -1,0 +1,19 @@
+{{ if isset .Site.Params "interested" }}
+{{ if .Site.Params.interested.enable }}
+<section class="bar">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-uppercase">{{ .Site.Params.interested.title }}</h3>
+                <p class="lead">{{ .Site.Params.interested.subtitle }}</p>
+                <p class="text-center">
+                    <a href="/faq/" class="btn btn btn-template-main btn-lg"><i class="fa fa-question-circle"></i>FAQs</a>
+                    <a href="/apply/" class="btn btn btn-template-main btn-lg"><i class="fa fa-thumbs-o-up"></i>Apply</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

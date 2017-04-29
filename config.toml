@@ -1,0 +1,70 @@
+languageCode = "en-us"
+title = "iCodeCamp"
+baseURL = "https://icodecamp.github.io/"
+theme = "iccTheme"
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Lessons"
+    url  = "/lessons/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    name = "Application"
+    identifier = "apply"
+    url  = "/apply/"
+    weight = 4
+
+[params]
+    # for the application form
+    email = "tdhanani3@gmail.com"
+
+    copyright = "Copyright © 2017 iCodeCamp"
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+
+[Permalinks]
+    lessons = "/lessons/:filename/"
+
+[params.carousel]
+    enable = true
+    image = "img/carousel/background.jpg"
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.about]
+    enable = true
+    title = "Code Camp"
+    subtitle = "is a Midwest Education Board endeavor that began in 2016. Our goal is to reduce the fear of technical skills and programming. Code Camp will run from May 25 to August 10, 2017."
+    link_url = "#"
+    link_text = "Check other homepages"
+
+[params.interested]
+    enable = true
+    title = "Interested?"
+    subtitle = "The program is avaible to anyone who is able to commit for six weeks this summer. Each of the six total lessons is taught two weeks in a row, so you have two date options for each lesson."

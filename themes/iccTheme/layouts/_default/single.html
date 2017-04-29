@@ -1,0 +1,40 @@
+<!-- lesson article -->
+
+<!DOCTYPE html>
+<html lang="en">
+  {{ partial "head.html" . }}
+  <body>
+    <div id="all">
+        <header> {{ partial "nav.html" . }} </header>
+        <div id="content">
+            <div class="container" style="margin-bottom: 50px">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
+                        <h1 id="title">{{ .Title }}</h1>
+                        <h2 id="subtitle">{{ .Params.subtitle }}</h2>
+                        
+                        <div id="post-content">
+                          <!-- {{ .Content }} -->
+                          {{ if .Params.isBeta }}
+                               <h2>hello, there.</h2>
+                               <p>this content is under development. </p>
+                          {{ else }}
+                              {{ .Content }}
+                          {{ end }}
+                        </div>
+                        <!-- /#post-content -->
+                        {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+    </div>
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
