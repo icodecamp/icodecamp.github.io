@@ -5,7 +5,7 @@ title = "Data Structures"
 subtitle = "Module 3"
 description = "Learn about lists and dictionaries" 
 bannerImage = "img/banners/image.png"
-isBeta = false 
+isBeta = true
 +++
 
 <!-- {{< youtube w7Ft2ymGmfc >}} -->
