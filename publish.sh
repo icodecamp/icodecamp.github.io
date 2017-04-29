@@ -9,22 +9,22 @@ then
     exit 1;
 fi
 
-echo -e "${PURPLE}Step 1: Deleting old publication${NORMAL}"
+echo "${PURPLE}Step 1: Deleting old publication${NORMAL}"
 rm -rf public
 mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo -e "${PURPLE}Step 2: Setting up worktree to public content${NORMAL}"
+echo "${PURPLE}Step 2: Setting up worktree to public content${NORMAL}"
 git worktree add -B master public master
 
-echo -e "${PURPLE}Step 3: Removing existing files${NORMAL}"
+echo "${PURPLE}Step 3: Removing existing files${NORMAL}"
 rm -rf public/*
 
-echo -e "${PURPLE}Step 4: Generating site and content${NORMAL}"
+echo "${PURPLE}Step 4: Generating site and content${NORMAL}"
 hugo
 
-echo -e "${PURPLE}Step 5: Uploading changes to github${NORMAL}"
+echo "${PURPLE}Step 5: Uploading changes to github${NORMAL}"
 cd public && git add --all && git commit -m "Publishing to master (publish.sh)" && git push origin master --force
 
-echo -e "${PURPLE}Process complete${NORMAL}"
+echo "${PURPLE}Process complete${NORMAL}"
