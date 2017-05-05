@@ -60,7 +60,7 @@ paginate = 10
 [params.about]
     enable = true
     title = "Code Camp"
-    subtitle = "is a Midwest Education Board endeavor that began in 2016. Our goal is to reduce the fear of technical skills and programming. Code Camp will run from May 25 to August 10, 2017."
+    subtitle = "is a Midwest Education Board endeavor that began in 2016. Our goal is to reduce the fear of technical skills and programming. Code Camp will be held every Thursday evening at 8:15pm from May 25 to August 10, 2017."
     link_url = "#"
     link_text = "Check other homepages"
 
