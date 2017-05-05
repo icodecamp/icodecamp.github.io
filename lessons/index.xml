@@ -187,20 +187,93 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
     </item>
     
     <item>
-      <title>Working with Git</title>
+      <title>Installation Working with Git</title>
       <link>https://icodecamp.github.io/lessons/1-git-terminal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://icodecamp.github.io/lessons/1-git-terminal/</guid>
       <description>
 
-&lt;h2 id=&#34;what-is-github&#34;&gt;What is GitHub?&lt;/h2&gt;
+&lt;h2 id=&#34;installing-sublime-text&#34;&gt;Installing Sublime Text&lt;/h2&gt;
+
+&lt;p&gt;Go to: &lt;a href=&#34;https://www.sublimetext.com/2&#34;&gt;https://www.sublimetext.com/2&lt;/a&gt; and click on our operating system (windows, mac, etc)&lt;/p&gt;
+
+&lt;h2 id=&#34;installing-python-on-mac&#34;&gt;Installing Python on Mac&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Open Terminal (Applications-&amp;gt; Utilities -&amp;gt; Terminal)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install xcode by copy and pasting the command: &lt;strong&gt;xcode-select &amp;ndash;install&lt;/strong&gt; and hit enter. This will install xcode onto your computer.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install homebrew by copy and pasting the command:  &lt;strong&gt;/usr/bin/ruby -e &amp;ldquo;$(curl -fsSL &lt;a href=&#34;https://raw.githubusercontent.com/Homebrew/install/master/install&#34;&gt;https://raw.githubusercontent.com/Homebrew/install/master/install&lt;/a&gt;)&lt;/strong&gt; and hit enter. Homebrew is a package manager (don&amp;rsquo;t worry if you do not know what this means) that lets you install software through the terminal.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install Python3 by copy and pasting the command: &lt;strong&gt;brew install python3&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;installing-python-on-windows&#34;&gt;Installing Python on Windows&lt;/h2&gt;
+
+&lt;p&gt;Follow this guide: &lt;a href=&#34;https://www.howtogeek.com/197947/how-to-install-python-on-windows/&#34;&gt;https://www.howtogeek.com/197947/how-to-install-python-on-windows/&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;how-to-install-github&#34;&gt;How to Install GitHub&lt;/h2&gt;
 
-&lt;h2 id=&#34;must-know-commands&#34;&gt;Must Know Commands&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Mac
+If you installed x-code this should already be downloaded for you&lt;/p&gt;&lt;/li&gt;
 
-&lt;h2 id=&#34;project&#34;&gt;Project&lt;/h2&gt;
+&lt;li&gt;&lt;p&gt;Windows
+Follow the instructions for windows here:
+&lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;class-activities&#34;&gt;Class activities&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intro&lt;/li&gt;
+&lt;li&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=dU1xS07N-FA&#34;&gt;https://www.youtube.com/watch?v=dU1xS07N-FA&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Staff Introductions&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Syllabus&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Github&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;What is Github?
+GitHub is a distributed versioning system that makes collaboration on software projects super fun. So what does this mean? You can imagine github as a place that stores your code. Since your code is stored at github, your teammates can then download your code from github. This way you can share your code without having to store it on a flash drive and transfer it your teammates computer. It lets you do a lot more then just transefering files, but we&amp;rsquo;ll discuss more of that below.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Must Know Commands&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git init- Creates a repository (for the purposes of this class this can be thought of as basically a folder that contains the files that contain your code).
+Ex. Git init myproject&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;git clone- Clones an existing repository onto your computer. Lets say your friend has the repository stored at http:github.com/friend_name/myproject. You would clone the repository onto your computer by typing git clone http:github.com/friend_name/myproject into the command line.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git add- Lets say you make some changes on computer, but you want your friends to see these changes. You will need to add your changes first to your local repository by running git add filename.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git commit -m &amp;ldquo;some message&amp;rdquo;- Now you have added all your files that you have changed. Lets now commit them so they are forever saved. You can do so by running git commit -m &amp;ldquo;some message&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git push- So you have committed now. Lets push all your changes up so your friend can also look at them. You can do so by running git push.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git status- Running this command shows you which files have been added and commited.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;git pull- Lets say your friend just pushed some changes. But how do you see them onto your computer. You simply run git pull.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Main Activity&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Cloning a repo&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Creating a new repo with a personalized site using git init and pushing it&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Add an image and button to your website and push up the changes.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
