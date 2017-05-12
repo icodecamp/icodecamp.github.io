@@ -26,6 +26,6 @@ echo "${PURPLE}Step 4: Generating site and content${NORMAL}"
 hugo
 
 echo "${PURPLE}Step 5: Uploading changes to github${NORMAL}"
-cd public && git add --all && git commit -m "publishing to master (publish.sh)" && git push orign master --force
+cd public && git add --all && git commit -m "publishing to master (publish.sh)" && git push origin master --force
 
 echo "${PURPLE}Process complete${NORMAL}"
