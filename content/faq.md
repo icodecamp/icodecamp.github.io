@@ -10,14 +10,14 @@ Programming is a way to tell a computer what to do with a series of commands. It
 
 ## What are the dates for Code Camp?
 
-Camp dates are May 25 to August 10, 2017. You should choose one date for each lesson:
+Camp dates are May 23 to August 8, 2017. You should choose one date for each lesson:
 
-* Lesson one: May 25 and/or June 1
-* Lesson two: June 8 and/or June 15
-* Lesson three: June 22 and/or June 29
-* Lesson four: July 6 and/or July 13
-* Lesson five: July 20 and/or July 27
-* Lesson six: August 3 and/or August 10
+* Lesson one: May 23 and/or May 30
+* Lesson two: June 6 and/or June 13
+* Lesson three: June 20 and/or June 27
+* Lesson four: July 6 and/or July 13 (classes will be held on Thursdays this week)
+* Lesson five: July 18 and/or July 25
+* Lesson six: August 1 and/or August 8
 
 ## Why are there two classes for each lesson?
 
@@ -25,7 +25,7 @@ Some of the feedback we got after our pilot Code Camp in 2016 was that it is dif
 
 ## Where/when are classes held?
 
-Each class will be held in Chicago Ismaili Jamatkhana social hall from 8:15pm to 9:30pm. 
+Each class will be held in the Chicago Ismaili Jamatkhana conference room from 8:15pm to 9:30pm. 
 
 ## How are classes structured?
 
