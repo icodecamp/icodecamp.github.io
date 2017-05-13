@@ -23,7 +23,7 @@ Camp dates are May 23 to August 8, 2017. You should choose one date for each les
 
 Some of the feedback we got after our pilot Code Camp in 2016 was that it is difficult for students to complete the course in the summer because of travel plans and jamati activities. Providing two dates for each lesson allows students to plan their attendance at Camp around any travel plans they may already have. This also allows students to attend a lesson twice to review concepts or spend extra time with instructors for a particularly difficult lesson. 
 
-## Where/when are classes held?
+## When and where are classes held?
 
 Each class will be held in the Chicago Ismaili Jamatkhana conference room from 8:15pm to 9:30pm. 
 
