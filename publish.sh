@@ -16,8 +16,8 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "${PURPLE}Step 2: Setting up worktree to public content${NORMAL}"
-#git worktree add -B master public upstream/master 
-git clone .git --branch master public
+git worktree add -B master public upstream/master 
+# git clone .git --branch master public
 
 echo "${PURPLE}Step 3: Removing existing files${NORMAL}"
 rm -rf public/*
