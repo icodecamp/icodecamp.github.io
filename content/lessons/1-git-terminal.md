@@ -8,70 +8,96 @@ bannerImage = "img/banners/github.png"
 isBeta = true
 +++
 
-## Installing Sublime Text
-Go to: https://www.sublimetext.com/2 and click on our operating system (windows, mac, etc)
-
-## Installing Python on Mac
-
-1. Open Terminal (Applications-> Utilities -> Terminal)
-
-2. Install xcode by copy and pasting the command: **xcode-select --install** and hit enter. This will install xcode onto your computer.
-
-3. Install homebrew by copy and pasting the command:  **/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)** and hit enter. Homebrew is a package manager (don't worry if you do not know what this means) that lets you install software through the terminal.
-
-4. Install Python3 by copy and pasting the command: **brew install python3**
-
-## Installing Python on Windows
-
-Follow this guide: https://www.howtogeek.com/197947/how-to-install-python-on-windows/
-
-## How to Install GitHub
-
-* Mac
-If you installed x-code this should already be downloaded for you
-
-* Windows
-Follow the instructions for windows here: 
-https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-
 ## Class activities
-
-* Intro
 1. Video: https://www.youtube.com/watch?v=dU1xS07N-FA
 2. Staff Introductions
 3. Syllabus
+4. Install Github/ Sublime Text
+5. Terminal Commands
+6. GitHub
 
-* Github
 
-1. What is Github?
-GitHub is a distributed versioning system that makes collaboration on software projects super fun. So what does this mean? You can imagine github as a place that stores your code. Since your code is stored at github, your teammates can then download your code from github. This way you can share your code without having to store it on a flash drive and transfer it your teammates computer. It lets you do a lot more then just transefering files, but we'll discuss more of that below.
+## Installing Sublime Text
+Go to: https://www.sublimetext.com/2 and click on our operating system (windows, mac, etc)
 
-2. Must Know Commands
-* git init- Creates a repository (for the purposes of this class this can be thought of as basically a folder that contains the files that contain your code).
-Ex. Git init myproject
+## How to Install GitHub
+* Mac
+Check if it is already installed by typing git -v in the terminal
+If not you can download it here:
+https://git-scm.com/download/mac
 
-* git clone- Clones an existing repository onto your computer. Lets say your friend has the repository stored at http:github.com/friend_name/myproject. You would clone the repository onto your computer by typing git clone http:github.com/friend_name/myproject into the command line.
+* Windows
+Follow the instructions for windows here: 
+https://www.edureka.co/blog/install-git/
 
-* git add- Lets say you make some changes on computer, but you want your friends to see these changes. You will need to add your changes first to your local repository by running git add filename. 
+## Terminal/Git Bash
+1. What is the terminal/ Git Bash?
+A common person interacts with the computer's operating visually. Meaning if a person wants to open a program, he/she will click on it. If they want to create a file, they will right click and select new file. 
 
-* git commit -m "some message"- Now you have added all your files that you have changed. Lets now commit them so they are forever saved. You can do so by running git commit -m "some message".
+A terminal/ git bash allows the user to interact with the operating system by simpling typing commands. Instead of right clicking, a person would simply type a command to create a new file. 
 
-* git push- So you have committed now. Lets push all your changes up so your friend can also look at them. You can do so by running git push.
+2. Why should I learn to use it?
+After using the terminal for awhile, you will see that it makes the common tasks of programming a lot faster and efficient. It also the most common method most professional programmers interact with the operating system. So even if you don't experience the benefits, atleast you are gaining exposure to how things are done in the industry.
 
-* git status- Running this command shows you which files have been added and commited.
+3. What are some common commands?
 
-* git pull- Lets say your friend just pushed some changes. But how do you see them onto your computer. You simply run git pull.
+* ls- Shows all files/directories in the current directory
+* cd directoryname- Changes the path to the specified directory
+* touch filename- Creates a file with the specified name in the current directory
+* mkdir- Creates a file with the specified name in the current directory
 
-* Main Activity
+## Github
+1. Why is GitHub needed?
+Imagine you and your friend are writing code to create a game. Once you project gets big enought they are two problems you will most likely run into. 
+
+Problem 1: You have made some changes to the code and now you want your friend to also have these changes. One way you can share the code is by emailing the code to your friend or putting it on a flash drive. This can't get very annoying very fast if the project involves making a lot of changes. With two people, emailing might end up working, but imagine working in a team of 10. It would be almost impossible to share code with 10 people.
+
+Problem 2: You wrote a lot of code to change some aspect of the game. You save the code and play the game, but realize that you liked the other version of the game better. You code try to undo your way back to the orginal code. That might work, but you might forget where you wanted to go back to. Worse, you might of closed your text editor so you can't even undo, you have to remember every place you made a change and then delete/fix it.
+
+2. What is Git?
+Git is aimed at solving the two problems described above. Git allows you to save versions of your program using a commit. Everytime you commit your code, git assigns that commit a number and saves the whole snapshot of your project. You can then revert back to the pervious commit if you mess up.  
+
+3. What is Github?
+Github is service that allows you to save your program in the cloud so you can share with your friends, teammates, or anyone else in the world. By the "cloud", I mean Github owns a bunch of computers where you can store your code. So once you have made your changes you push your changes to the computers owned by github. Then ask github for the most updated version of the code and download onto his/her computer before he/she makes any changes. 
+
+4. So how do I use git/github?
+
+First thing you need to do is sign up for an account on github and download git (inctructions are above).
+
+Next you need to gain a little familiarity with terminal/git bash commands. 
+
+Now your ready to learn the github workflow.
+
+5. What is the github workflow?
+   1. First thing you need to do is create your project folder where you will store all your files. To do this you can create a folder using mkdir projectname or by going to github and creating a new repository. 
+
+   2. You need to tell git that want it to start tracking changes in this folder. To this you use the command git init. Now you created a git repository meaning git will start saving versions of this folder once you commit your code.
+
+   3. Now you need start doing stuff meaning working on your project. You will probably need to create a file. You can do so using the command: touch filename. Now that you have created your file, you should probably open it using a file editor and adding stuff to it. 
+
+   4. Once you are done making changes. You need to add these files to be part of this new commit you will be making. To do so you use the commad git add filename or git add . to add every file you made a change to. 
+
+   5. Now you are ready to make a commit. You can do so by typing git commit -m "some message". Note you cannot commit without making a message. 
+
+   6. After you have made your commit you might want to share your code with some else. To do so, you need to create a repository in github where you can send your code. So you need to go your account in github and create a new repositoy.
+
+   7. After you have created a repository in github you want to tell your local repository that you want to send the code to a certain github repository. You can do so by using the command: Git add origin “https:…”. You can get the http address on the page of your repository on github. 
+
+   8. Now you can simply use the command: git push to send your changes to the cloud.
+
+   9. Your friend can simply get the changes by using the command: git pull. 
+
+## Main Activity
 
 1. Cloning a repo
-
 2. Creating a new repo with a personalized site using git init and pushing it
 
 
 ## Homework 
 
-1. Add an image and button to your website and push up the changes.
+Posted on https://github.com/icodecamp/module1_personalWebsite. 
+
+
 
 
 
