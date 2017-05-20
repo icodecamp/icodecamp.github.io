@@ -16,7 +16,9 @@ git worktree prune
 rm -rf .git/worktrees/public/
 
 echo "${PURPLE}Step 2: Setting up worktree to public content${NORMAL}"
-git worktree add -B master public master
+git worktree add -B master public origin/master 
+# git worktree add -B master public master
+# git clone .git --branch master public
 
 echo "${PURPLE}Step 3: Removing existing files${NORMAL}"
 rm -rf public/*
@@ -25,6 +27,6 @@ echo "${PURPLE}Step 4: Generating site and content${NORMAL}"
 hugo
 
 echo "${PURPLE}Step 5: Uploading changes to github${NORMAL}"
-cd public && git add --all && git commit -m "Publishing to master (publish.sh)" && git push origin master --force
+cd public && git add --all && git commit -m "publishing to master (publish.sh)" && git push origin master --force
 
 echo "${PURPLE}Process complete${NORMAL}"
