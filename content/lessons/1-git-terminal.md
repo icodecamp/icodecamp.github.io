@@ -20,6 +20,9 @@ isBeta = true
 ## Installing Sublime Text
 Go to: https://www.sublimetext.com/2 and click on our operating system (windows, mac, etc)
 
+## Create Github Account
+Sign up for an account on https://github.com/
+
 ## How to Install GitHub
 * Mac
 Check if it is already installed by typing git -v in the terminal
