@@ -12,26 +12,26 @@ isBeta = true
 1. Video: https://www.youtube.com/watch?v=dU1xS07N-FA
 2. Staff Introductions
 3. Syllabus
-4. Install Github/ Sublime Text
+4. Going through installation troubles
 5. Terminal Commands
 6. GitHub
 
+## Pre-Class Installation
+Please do the following installations/sign-ups before class. If you run into trouble don't worry we'll work with you during class. Thanks!
 
-## Installing Sublime Text
-Go to: https://www.sublimetext.com/2 and click on our operating system (windows, mac, etc)
+1. Install Sublime Text
+Go to: https://www.sublimetext.com/2 and click on our operating system (windows, mac, etc) and install sublime text.
 
-## Create Github Account
+2. Create Github Account
 Sign up for an account on https://github.com/
 
-## How to Install GitHub
-* Mac
-Check if it is already installed by typing git -v in the terminal
-If not you can download it here:
-https://git-scm.com/download/mac
+3. Installing Git
+   * Mac- Check if it is already installed by typing git -v in the terminal
+	 If not you can download it here:
+	 https://git-scm.com/download/mac
 
-* Windows
-Follow the instructions for windows here: 
-https://www.edureka.co/blog/install-git/
+   * Windows- Follow the instructions for windows here: 
+	 https://www.edureka.co/blog/install-git/
 
 ## Terminal/Git Bash
 1. What is the terminal/ Git Bash?
