@@ -22,7 +22,7 @@ There are __three__ steps you must complete before your first before class. If y
 
 2. __Create Github Account__
   
-    > [__Create a free username and password__](https://github.com/join?source=header-home) *and make sure you remember your credentials :)*
+    > [__create a free username and password__](https://github.com/join?source=header-home) *and make sure you remember your credentials :)*
 
 3. __Installing Git__
     
