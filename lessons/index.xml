@@ -17,172 +17,39 @@
       <guid>https://icodecamp.github.io/lessons/0-introduction/</guid>
       <description>
 
-&lt;h2 id=&#34;move-static-content-to-static&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
+&lt;h1 id=&#34;welcome-to-icodecamp&#34;&gt;Welcome to iCodeCamp&lt;/h1&gt;
 
-&lt;p&gt;Jekyll has a rule that any directory not starting with &lt;code&gt;_&lt;/code&gt; will be copied as-is to the &lt;code&gt;_site&lt;/code&gt; output. Hugo keeps all static content under &lt;code&gt;static&lt;/code&gt;. You should therefore move it all there.
-With Jekyll, something that looked like&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ images/
-        logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;should become&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;▾ &amp;lt;root&amp;gt;/
-    ▾ static/
-        ▾ images/
-            logo.png
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as &lt;code&gt;CNAME&lt;/code&gt;) to be moved to &lt;code&gt;static&lt;/code&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;create-your-hugo-configuration-file&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
-
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;https://icodecamp.github.io/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
-
-&lt;h2 id=&#34;set-your-configuration-publish-folder-to-site&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
-
-&lt;p&gt;The default is for Jekyll to publish to &lt;code&gt;_site&lt;/code&gt; and for Hugo to publish to &lt;code&gt;public&lt;/code&gt;. If, like me, you have &lt;a href=&#34;http://blog.blindgaenger.net/generate_github_pages_in_a_submodule.html&#34;&gt;&lt;code&gt;_site&lt;/code&gt; mapped to a git submodule on the &lt;code&gt;gh-pages&lt;/code&gt; branch&lt;/a&gt;, you&amp;rsquo;ll want to do one of two alternatives:&lt;/p&gt;
+&lt;p&gt;There are &lt;strong&gt;three&lt;/strong&gt; steps you must complete before your first before class. If you run into trouble, no worries we&amp;rsquo;ll work with you during class. Good Luck!&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Change your submodule to point to map &lt;code&gt;gh-pages&lt;/code&gt; to public instead of &lt;code&gt;_site&lt;/code&gt; (recommended).&lt;/p&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Install Sublime Text&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git submodule deinit _site
-git rm _site
-git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2.dmg&#34;&gt;&lt;strong&gt;download link for Mac&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;Or, change the Hugo configuration to use &lt;code&gt;_site&lt;/code&gt; instead of &lt;code&gt;public&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2a%20x64%20Setup.exe&#34;&gt;&lt;strong&gt;download link for Windows&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;{
-    ..
-    &amp;quot;publishdir&amp;quot;: &amp;quot;_site&amp;quot;,
-    ..
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2a%20Setup.exe&#34;&gt;&lt;strong&gt;alternative download link for windows x86&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create Github Account&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/join?source=header-home&#34;&gt;&lt;strong&gt;Create a username and password&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;definitely select the &amp;ldquo;Free Plan&amp;rdquo; on step 2 of the signup process&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Installing Git&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;mac users&lt;/strong&gt; open the application called &amp;ldquo;terminal&amp;rdquo; and type &lt;code&gt;git --version&lt;/code&gt; in the black box that appears.&lt;/p&gt;
+
+&lt;p&gt;If you get a response similar to &lt;code&gt;git version #.##.# (Apple Git-78)&lt;/code&gt;, then you&amp;rsquo;re good. Otherwise, download git from &lt;a href=&#34;https://git-scm.com/download/mac&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;windows users&lt;/strong&gt; follow the instructions for windows &lt;a href=&#34;https://www.edureka.co/blog/install-git/&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
 &lt;/ol&gt;
-
-&lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
-
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;https://icodecamp.github.io/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
-
-&lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
-
-&lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
-
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;https://icodecamp.github.io/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
-
-&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
-
-&lt;p&gt;As an example, I was using a custom &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/blob/74bb12036a71334fdb7dba84e073382fc06908ec/_plugins/image_tag.rb&#34;&gt;&lt;code&gt;image_tag&lt;/code&gt;&lt;/a&gt; plugin to generate figures with caption when running Jekyll. As I read about shortcodes, I found Hugo had a nice built-in shortcode that does exactly the same thing.&lt;/p&gt;
-
-&lt;p&gt;Jekyll&amp;rsquo;s plugin:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;module Jekyll
-  class ImageTag &amp;lt; Liquid::Tag
-    @url = nil
-    @caption = nil
-    @class = nil
-    @link = nil
-    // Patterns
-    IMAGE_URL_WITH_CLASS_AND_CAPTION =
-    IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK = /(\w+)(\s+)((https?:\/\/|\/)(\S+))(\s+)&amp;quot;(.*?)&amp;quot;(\s+)-&amp;gt;((https?:\/\/|\/)(\S+))(\s*)/i
-    IMAGE_URL_WITH_CAPTION = /((https?:\/\/|\/)(\S+))(\s+)&amp;quot;(.*?)&amp;quot;/i
-    IMAGE_URL_WITH_CLASS = /(\w+)(\s+)((https?:\/\/|\/)(\S+))/i
-    IMAGE_URL = /((https?:\/\/|\/)(\S+))/i
-    def initialize(tag_name, markup, tokens)
-      super
-      if markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION_AND_LINK
-        @class   = $1
-        @url     = $3
-        @caption = $7
-        @link = $9
-      elsif markup =~ IMAGE_URL_WITH_CLASS_AND_CAPTION
-        @class   = $1
-        @url     = $3
-        @caption = $7
-      elsif markup =~ IMAGE_URL_WITH_CAPTION
-        @url     = $1
-        @caption = $5
-      elsif markup =~ IMAGE_URL_WITH_CLASS
-        @class = $1
-        @url   = $3
-      elsif markup =~ IMAGE_URL
-        @url = $1
-      end
-    end
-    def render(context)
-      if @class
-        source = &amp;quot;&amp;lt;figure class=&#39;#{@class}&#39;&amp;gt;&amp;quot;
-      else
-        source = &amp;quot;&amp;lt;figure&amp;gt;&amp;quot;
-      end
-      if @link
-        source += &amp;quot;&amp;lt;a href=\&amp;quot;#{@link}\&amp;quot;&amp;gt;&amp;quot;
-      end
-      source += &amp;quot;&amp;lt;img src=\&amp;quot;#{@url}\&amp;quot;&amp;gt;&amp;quot;
-      if @link
-        source += &amp;quot;&amp;lt;/a&amp;gt;&amp;quot;
-      end
-      source += &amp;quot;&amp;lt;figcaption&amp;gt;#{@caption}&amp;lt;/figcaption&amp;gt;&amp;quot; if @caption
-      source += &amp;quot;&amp;lt;/figure&amp;gt;&amp;quot;
-      source
-    end
-  end
-end
-Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;is written as this Hugo shortcode:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;!-- image --&amp;gt;
-&amp;lt;figure {{ with .Get &amp;quot;class&amp;quot; }}class=&amp;quot;{{.}}&amp;quot;{{ end }}&amp;gt;
-    {{ with .Get &amp;quot;link&amp;quot;}}&amp;lt;a href=&amp;quot;{{.}}&amp;quot;&amp;gt;{{ end }}
-        &amp;lt;img src=&amp;quot;{{ .Get &amp;quot;src&amp;quot; }}&amp;quot; {{ if or (.Get &amp;quot;alt&amp;quot;) (.Get &amp;quot;caption&amp;quot;) }}alt=&amp;quot;{{ with .Get &amp;quot;alt&amp;quot;}}{{.}}{{else}}{{ .Get &amp;quot;caption&amp;quot; }}{{ end }}&amp;quot;{{ end }} /&amp;gt;
-    {{ if .Get &amp;quot;link&amp;quot;}}&amp;lt;/a&amp;gt;{{ end }}
-    {{ if or (or (.Get &amp;quot;title&amp;quot;) (.Get &amp;quot;caption&amp;quot;)) (.Get &amp;quot;attr&amp;quot;)}}
-    &amp;lt;figcaption&amp;gt;{{ if isset .Params &amp;quot;title&amp;quot; }}
-        {{ .Get &amp;quot;title&amp;quot; }}{{ end }}
-        {{ if or (.Get &amp;quot;caption&amp;quot;) (.Get &amp;quot;attr&amp;quot;)}}&amp;lt;p&amp;gt;
-        {{ .Get &amp;quot;caption&amp;quot; }}
-        {{ with .Get &amp;quot;attrlink&amp;quot;}}&amp;lt;a href=&amp;quot;{{.}}&amp;quot;&amp;gt; {{ end }}
-            {{ .Get &amp;quot;attr&amp;quot; }}
-        {{ if .Get &amp;quot;attrlink&amp;quot;}}&amp;lt;/a&amp;gt; {{ end }}
-        &amp;lt;/p&amp;gt; {{ end }}
-    &amp;lt;/figcaption&amp;gt;
-    {{ end }}
-&amp;lt;/figure&amp;gt;
-&amp;lt;!-- image --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;usage&#34;&gt;Usage&lt;/h3&gt;
-
-&lt;p&gt;I simply changed:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{% image full http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg &amp;quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were &amp;quot;having fun&amp;quot; and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&amp;quot; -&amp;gt;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/ %}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;to this (this example uses a slightly extended version named &lt;code&gt;fig&lt;/code&gt;, different than the built-in &lt;code&gt;figure&lt;/code&gt;):&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% fig class=&amp;quot;full&amp;quot; src=&amp;quot;http://farm5.staticflickr.com/4136/4829260124_57712e570a_o_d.jpg&amp;quot; title=&amp;quot;One of my favorite touristy-type photos. I secretly waited for the good light while we were having fun and took this. Only regret: a stupid pole in the top-left corner of the frame I had to clumsily get rid of at post-processing.&amp;quot; link=&amp;quot;http://www.flickr.com/photos/alexnormand/4829260124/in/set-72157624547713078/&amp;quot; %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;As a bonus, the shortcode named parameters are, arguably, more readable.&lt;/p&gt;
-
-&lt;h2 id=&#34;finishing-touches&#34;&gt;Finishing touches&lt;/h2&gt;
-
-&lt;h3 id=&#34;fix-content&#34;&gt;Fix content&lt;/h3&gt;
-
-&lt;p&gt;Depending on the amount of customization that was done with each post with Jekyll, this step will require more or less effort. There are no hard and fast rules here except that &lt;code&gt;hugo server --watch&lt;/code&gt; is your friend. Test your changes and fix errors as needed.&lt;/p&gt;
-
-&lt;h3 id=&#34;clean-up&#34;&gt;Clean up&lt;/h3&gt;
-
-&lt;p&gt;You&amp;rsquo;ll want to remove the Jekyll configuration at this point. If you have anything else that isn&amp;rsquo;t used, delete it.&lt;/p&gt;
-
-&lt;h2 id=&#34;a-practical-example-in-a-diff&#34;&gt;A practical example in a diff&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://heyitsalex.net/&#34;&gt;Hey, it&amp;rsquo;s Alex&lt;/a&gt; was migrated in less than a &lt;em&gt;father-with-kids day&lt;/em&gt; from Jekyll to Hugo. You can see all the changes (and screw-ups) by looking at this &lt;a href=&#34;https://github.com/alexandre-normand/alexandre-normand/compare/869d69435bd2665c3fbf5b5c78d4c22759d7613a...b7f6605b1265e83b4b81495423294208cc74d610&#34;&gt;diff&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -194,86 +61,101 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
       <guid>https://icodecamp.github.io/lessons/1-git-terminal/</guid>
       <description>
 
-&lt;h2 id=&#34;installing-sublime-text&#34;&gt;Installing Sublime Text&lt;/h2&gt;
-
-&lt;p&gt;Go to: &lt;a href=&#34;https://www.sublimetext.com/2&#34;&gt;https://www.sublimetext.com/2&lt;/a&gt; and click on our operating system (windows, mac, etc)&lt;/p&gt;
-
-&lt;h2 id=&#34;installing-python-on-mac&#34;&gt;Installing Python on Mac&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Open Terminal (Applications-&amp;gt; Utilities -&amp;gt; Terminal)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Install xcode by copy and pasting the command: &lt;strong&gt;xcode-select &amp;ndash;install&lt;/strong&gt; and hit enter. This will install xcode onto your computer.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Install homebrew by copy and pasting the command:  &lt;strong&gt;/usr/bin/ruby -e &amp;ldquo;$(curl -fsSL &lt;a href=&#34;https://raw.githubusercontent.com/Homebrew/install/master/install&#34;&gt;https://raw.githubusercontent.com/Homebrew/install/master/install&lt;/a&gt;)&lt;/strong&gt; and hit enter. Homebrew is a package manager (don&amp;rsquo;t worry if you do not know what this means) that lets you install software through the terminal.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Install Python3 by copy and pasting the command: &lt;strong&gt;brew install python3&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;installing-python-on-windows&#34;&gt;Installing Python on Windows&lt;/h2&gt;
-
-&lt;p&gt;Follow this guide: &lt;a href=&#34;https://www.howtogeek.com/197947/how-to-install-python-on-windows/&#34;&gt;https://www.howtogeek.com/197947/how-to-install-python-on-windows/&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;how-to-install-github&#34;&gt;How to Install GitHub&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Mac
-If you installed x-code this should already be downloaded for you&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Windows
-Follow the instructions for windows here:
-&lt;a href=&#34;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&#34;&gt;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h2 id=&#34;class-activities&#34;&gt;Class activities&lt;/h2&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Intro&lt;/li&gt;
+&lt;ol&gt;
 &lt;li&gt;Video: &lt;a href=&#34;https://www.youtube.com/watch?v=dU1xS07N-FA&#34;&gt;https://www.youtube.com/watch?v=dU1xS07N-FA&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Staff Introductions&lt;/li&gt;
+&lt;li&gt;Syllabus&lt;/li&gt;
+&lt;li&gt;Going through installation troubles&lt;/li&gt;
+&lt;li&gt;Terminal Commands&lt;/li&gt;
+&lt;li&gt;GitHub&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;li&gt;&lt;p&gt;Syllabus&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Github&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h2 id=&#34;terminal-git-bash&#34;&gt;Terminal/Git Bash&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;What is Github?
-GitHub is a distributed versioning system that makes collaboration on software projects super fun. So what does this mean? You can imagine github as a place that stores your code. Since your code is stored at github, your teammates can then download your code from github. This way you can share your code without having to store it on a flash drive and transfer it your teammates computer. It lets you do a lot more then just transefering files, but we&amp;rsquo;ll discuss more of that below.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;What is the terminal/ Git Bash?
+A common person interacts with the computer&amp;rsquo;s operating visually. Meaning if a person wants to open a program, he/she will click on it. If they want to create a file, they will right click and select new file.&lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;li&gt;&lt;p&gt;Must Know Commands&lt;/p&gt;&lt;/li&gt;
+&lt;p&gt;A terminal/ git bash allows the user to interact with the operating system by simpling typing commands. Instead of right clicking, a person would simply type a command to create a new file.&lt;/p&gt;
 
-&lt;li&gt;&lt;p&gt;git init- Creates a repository (for the purposes of this class this can be thought of as basically a folder that contains the files that contain your code).
-Ex. Git init myproject&lt;/p&gt;&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Why should I learn to use it?
+After using the terminal for awhile, you will see that it makes the common tasks of programming a lot faster and efficient. It also the most common method most professional programmers interact with the operating system. So even if you don&amp;rsquo;t experience the benefits, atleast you are gaining exposure to how things are done in the industry.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;What are some common commands?&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;git clone- Clones an existing repository onto your computer. Lets say your friend has the repository stored at http:github.com/friend_name/myproject. You would clone the repository onto your computer by typing git clone http:github.com/friend_name/myproject into the command line.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;git add- Lets say you make some changes on computer, but you want your friends to see these changes. You will need to add your changes first to your local repository by running git add filename.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;git commit -m &amp;ldquo;some message&amp;rdquo;- Now you have added all your files that you have changed. Lets now commit them so they are forever saved. You can do so by running git commit -m &amp;ldquo;some message&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;git push- So you have committed now. Lets push all your changes up so your friend can also look at them. You can do so by running git push.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;git status- Running this command shows you which files have been added and commited.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;git pull- Lets say your friend just pushed some changes. But how do you see them onto your computer. You simply run git pull.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Main Activity&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;ls- Shows all files/directories in the current directory&lt;/li&gt;
+&lt;li&gt;cd directoryname- Changes the path to the specified directory&lt;/li&gt;
+&lt;li&gt;touch filename- Creates a file with the specified name in the current directory&lt;/li&gt;
+&lt;li&gt;mkdir- Creates a file with the specified name in the current directory&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Cloning a repo&lt;/p&gt;&lt;/li&gt;
+&lt;h2 id=&#34;github&#34;&gt;Github&lt;/h2&gt;
 
-&lt;li&gt;&lt;p&gt;Creating a new repo with a personalized site using git init and pushing it&lt;/p&gt;&lt;/li&gt;
+&lt;ol&gt;
+&lt;li&gt;Why is GitHub needed?
+Imagine you and your friend are writing code to create a game. Once you project gets big enought they are two problems you will most likely run into.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Problem 1: You have made some changes to the code and now you want your friend to also have these changes. One way you can share the code is by emailing the code to your friend or putting it on a flash drive. This can&amp;rsquo;t get very annoying very fast if the project involves making a lot of changes. With two people, emailing might end up working, but imagine working in a team of 10. It would be almost impossible to share code with 10 people.&lt;/p&gt;
+
+&lt;p&gt;Problem 2: You wrote a lot of code to change some aspect of the game. You save the code and play the game, but realize that you liked the other version of the game better. You code try to undo your way back to the orginal code. That might work, but you might forget where you wanted to go back to. Worse, you might of closed your text editor so you can&amp;rsquo;t even undo, you have to remember every place you made a change and then delete/fix it.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;What is Git?
+Git is aimed at solving the two problems described above. Git allows you to save versions of your program using a commit. Everytime you commit your code, git assigns that commit a number and saves the whole snapshot of your project. You can then revert back to the pervious commit if you mess up.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;What is Github?
+Github is service that allows you to save your program in the cloud so you can share with your friends, teammates, or anyone else in the world. By the &amp;ldquo;cloud&amp;rdquo;, I mean Github owns a bunch of computers where you can store your code. So once you have made your changes you push your changes to the computers owned by github. Then ask github for the most updated version of the code and download onto his/her computer before he/she makes any changes.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;So how do I use git/github?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;First thing you need to do is sign up for an account on github and download git (inctructions are above).&lt;/p&gt;
+
+&lt;p&gt;Next you need to gain a little familiarity with terminal/git bash commands.&lt;/p&gt;
+
+&lt;p&gt;Now your ready to learn the github workflow.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;What is the github workflow?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;First thing you need to do is create your project folder where you will store all your files. To do this you can create a folder using mkdir projectname or by going to github and creating a new repository.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You need to tell git that want it to start tracking changes in this folder. To this you use the command git init. Now you created a git repository meaning git will start saving versions of this folder once you commit your code.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now you need start doing stuff meaning working on your project. You will probably need to create a file. You can do so using the command: touch filename. Now that you have created your file, you should probably open it using a file editor and adding stuff to it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Once you are done making changes. You need to add these files to be part of this new commit you will be making. To do so you use the commad git add filename or git add . to add every file you made a change to.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now you are ready to make a commit. You can do so by typing git commit -m &amp;ldquo;some message&amp;rdquo;. Note you cannot commit without making a message.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After you have made your commit you might want to share your code with some else. To do so, you need to create a repository in github where you can send your code. So you need to go your account in github and create a new repositoy.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After you have created a repository in github you want to tell your local repository that you want to send the code to a certain github repository. You can do so by using the command: Git add origin “https:…”. You can get the http address on the page of your repository on github.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now you can simply use the command: git push to send your changes to the cloud.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Your friend can simply get the changes by using the command: git pull.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;main-activity&#34;&gt;Main Activity&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Cloning a repo&lt;/li&gt;
+&lt;li&gt;Creating a new repo with a personalized site using git init and pushing it&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h2 id=&#34;homework&#34;&gt;Homework&lt;/h2&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Add an image and button to your website and push up the changes.&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;Posted on &lt;a href=&#34;https://github.com/icodecamp/module1_personalWebsite&#34;&gt;https://github.com/icodecamp/module1_personalWebsite&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
