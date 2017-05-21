@@ -16,23 +16,6 @@ isBeta = true
 5. Terminal Commands
 6. GitHub
 
-## Pre-Class Installation
-Please do the following installations/sign-ups before class. If you run into trouble don't worry we'll work with you during class. Thanks!
-
-1. Install Sublime Text
-Go to: https://www.sublimetext.com/2 and click on our operating system (windows, mac, etc) and install sublime text.
-
-2. Create Github Account
-Sign up for an account on https://github.com/
-
-3. Installing Git
-   * Mac- Check if it is already installed by typing git -v in the terminal
-	 If not you can download it here:
-	 https://git-scm.com/download/mac
-
-   * Windows- Follow the instructions for windows here: 
-	 https://www.edureka.co/blog/install-git/
-
 ## Terminal/Git Bash
 1. What is the terminal/ Git Bash?
 A common person interacts with the computer's operating visually. Meaning if a person wants to open a program, he/she will click on it. If they want to create a file, they will right click and select new file. 
