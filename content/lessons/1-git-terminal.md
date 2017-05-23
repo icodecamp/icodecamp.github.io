@@ -8,13 +8,9 @@ bannerImage = "img/banners/github.png"
 isBeta = true
 +++
 
-## Class activities
-1. Video: https://www.youtube.com/watch?v=dU1xS07N-FA
-2. Staff Introductions
-3. Syllabus
-4. Going through installation troubles
-5. Terminal Commands
-6. GitHub
+
+{{< youtube dU1xS07N-FA >}}
+
 
 ## Terminal/Git Bash
 1. What is the terminal/ Git Bash?
