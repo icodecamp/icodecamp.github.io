@@ -10,7 +10,7 @@ isBeta = false
 +++
 
 
-{{< youtube dU1xS07N-FA >}}
+{{< youtube nKIu9yen5nc >}}
 
 # What is Terminal?
 > [__Terminal__](https://askubuntu.com/questions/38162/what-is-a-terminal-and-how-do-i-open-and-use-it)
@@ -48,6 +48,14 @@ This activity will test your terminal and git skills by having you download a pr
 # Next Steps
 Github lets each user have a free site. You created version one of your own site. Using sublime text, edit the contents of this website to your hearts desire. Then use the following commands `git add`, `git commit`, and `git push` commands to push these changes to github! If you 'git' stuck, here's a [link](https://git-scm.com/docs/gittutorial) for a good resource.
 
+# Become an Expert
+> [__Interactive Command Line Tutorial__](https://www.codecademy.com/learn/learn-the-command-line). Stuck? [__Solutions__](https://www.youtube.com/watch?v=iDbwYI4qntw)
+
+> [__Interactive Github Tutorial__](https://www.codecademy.com/learn/learn-git). Stuck? [__Solutions__](https://www.youtube.com/watch?v=TlsLj0jE8e0)
+
+> [__Interactive HTML and CSS Tutorial__](https://www.codecademy.com/learn/learn-html-css). Stuck? [__Solutions__](https://www.youtube.com/playlist?list=PLNEKkZrJ3NV8EdSA2vcdiU5udHVVbBve0)
+
+> [__General Assembly__](https://dash.generalassemb.ly/) has numerous tutorial on creating reponsive websites and web games. 
 
 
 
