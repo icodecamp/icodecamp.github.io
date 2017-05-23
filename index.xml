@@ -19,7 +19,7 @@
 
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/dU1xS07N-FA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/nKIu9yen5nc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
 
@@ -59,13 +59,25 @@ allows the user to interact with the operating system by simpling typing command
 &lt;li&gt;Back to terminal! Use the command &lt;code&gt;git init&lt;/code&gt; to create a git repository.&lt;/li&gt;
 &lt;li&gt;The command &lt;code&gt;git add *&lt;/code&gt; will add all the files in the current directory to this new repo you just initialized locally.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;git commit -m &amp;quot;first commit&amp;quot;&lt;/code&gt; will commit this add to this new local repository.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;git remote add origin (URL_OF_YOUR_REMOTE_REPO)&lt;/code&gt; will connect your local repository to the remote one you created on github.com.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;git remote set-url origin (URL_OF_YOUR_REMOTE_REPO)&lt;/code&gt; will connect your local repository to the remote one you created on github.com.&lt;/li&gt;
 &lt;li&gt;Final step! Run &lt;code&gt;git push -u origin master&lt;/code&gt; to push your local commit to your remote repository.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h1 id=&#34;next-steps&#34;&gt;Next Steps&lt;/h1&gt;
 
 &lt;p&gt;Github lets each user have a free site. You created version one of your own site. Using sublime text, edit the contents of this website to your hearts desire. Then use the following commands &lt;code&gt;git add&lt;/code&gt;, &lt;code&gt;git commit&lt;/code&gt;, and &lt;code&gt;git push&lt;/code&gt; commands to push these changes to github! If you &amp;lsquo;git&amp;rsquo; stuck, here&amp;rsquo;s a &lt;a href=&#34;https://git-scm.com/docs/gittutorial&#34;&gt;link&lt;/a&gt; for a good resource.&lt;/p&gt;
+
+&lt;h1 id=&#34;become-an-expert&#34;&gt;Become an Expert&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-the-command-line&#34;&gt;&lt;strong&gt;Interactive Command Line Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/watch?v=iDbwYI4qntw&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-git&#34;&gt;&lt;strong&gt;Interactive Github Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/watch?v=TlsLj0jE8e0&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-html-css&#34;&gt;&lt;strong&gt;Interactive HTML and CSS Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/playlist?list=PLNEKkZrJ3NV8EdSA2vcdiU5udHVVbBve0&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dash.generalassemb.ly/&#34;&gt;&lt;strong&gt;General Assembly&lt;/strong&gt;&lt;/a&gt; has numerous tutorial on creating reponsive websites and web games.&lt;/p&gt;
+&lt;/blockquote&gt;
 </description>
     </item>
     
