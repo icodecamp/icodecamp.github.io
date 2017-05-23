@@ -6,13 +6,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Installation Working with Git</title>
+  <title>Terminal and Git</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
   
-  <meta name="description" content="GitHub is a distributed versioning system that makes collaboration on software projects super fun.">
+  <meta name="description" content="Terminal is a developers favorite tool to interact with systems. Git is a distributed versioning system that runs on terminal to make collaboration super fun.">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -123,14 +123,64 @@
             <div class="container" style="margin-bottom: 50px">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
-                        <h1 id="title">Installation Working with Git</h1>
+                        <h1 id="title">Terminal and Git</h1>
                         <h2 id="subtitle">Module 1</h2>
                         
                         <div id="post-content">
                           
                           
-                               <h2>hello, there.</h2>
-                               <p>this content is under development. </p>
+                              
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/dU1xS07N-FA" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h1 id="what-is-terminal">What is Terminal?</h1>
+
+<blockquote>
+<p><a href="https://askubuntu.com/questions/38162/what-is-a-terminal-and-how-do-i-open-and-use-it"><strong>Terminal</strong></a>
+allows the user to interact with the operating system by simpling typing commands. Below are the most popular commands that you should know.</p>
+
+<p><a href="http://www.tutorialspoint.com/unix_commands/ls.htm"><code>ls</code></a> shows all files/directories in the current directory</p>
+
+<p><a href="http://www.tutorialspoint.com/unix_commands/cd.htm"><code>cd (directory_name)</code></a> changes the path to the specified directory</p>
+
+<p><a href="http://www.linfo.org/touch.html"><code>touch (file_name)</code></a> creates a file with the specified name</p>
+
+<p><a href="http://www.tutorialspoint.com/unix_commands/mkdir.htm"><code>mkdir (directory_name)</code></a> creates a directory (folder) with the specified name</p>
+</blockquote>
+
+<h1 id="what-is-git">What is Git?</h1>
+
+<blockquote>
+<p><a href="https://www.atlassian.com/git/tutorials/what-is-git"><strong>Git</strong></a> is a program that allows you to save versions of your program using a commit. Commiting saves the whole snapshot of your project. So you can then revert back to the pervious commit if you mess up. Everytime someone on your team pushes code to git, you can pull their changes and keep updated.</p>
+
+<p><a href="https://github.com/about"><strong>Github</strong></a> is service that we&rsquo;ll use. It allows you to save your program in the <a href="http://www.pcmag.com/article2/0,2817,2372163,00.asp">cloud</a> so you can share with your friends, teammates, or anyone else in the world.</p>
+</blockquote>
+
+<h1 id="activity">Activity</h1>
+
+<p>This activity will test your terminal and git skills by having you download a project from a <a href="https://www.sbf5.com/~cduan/technical/git/git-1.shtml">github repository</a> and then push the code to your own repository. Ensure that you have completed all the steps in the <a href="http://localhost:1313/lessons/0-introduction/">getting started guide</a>.</p>
+
+<ol>
+<li>Open up terminal. Using the <code>cd Desktop</code> command, navigate to your desktop</li>
+<li>Using the <code>mkdir iCodeCamp</code> command, create a new folder</li>
+<li>Change your directory to this new &ldquo;iCodeCamp&rdquo; directory</li>
+<li>Use the <code>git clone https://github.com/icodecamp/module1_personalWebsite.git</code> command to download the module1 code. Change your directory to the new folder that was downloaded.</li>
+<li>On an internet browser, go to github and create a new public repository with the name &ldquo;USERNAME.github.io&rdquo; (replace the word username with your actual username). You do not neet to initalize with a &ldquo;README.&rdquo;</li>
+<li>Back to terminal! Use the command <code>git init</code> to create a git repository.</li>
+<li>The command <code>git add *</code> will add all the files in the current directory to this new repo you just initialized locally.</li>
+<li><code>git commit -m &quot;first commit&quot;</code> will commit this add to this new local repository.</li>
+<li><code>git remote add origin (URL_OF_YOUR_REMOTE_REPO)</code> will connect your local repository to the remote one you created on github.com.</li>
+<li>Final step! Run <code>git push -u origin master</code> to push your local commit to your remote repository.</li>
+</ol>
+
+<h1 id="next-steps">Next Steps</h1>
+
+<p>Github lets each user have a free site. You created version one of your own site. Using sublime text, edit the contents of this website to your hearts desire. Then use the following commands <code>git add</code>, <code>git commit</code>, and <code>git push</code> commands to push these changes to github! If you &lsquo;git&rsquo; stuck, here&rsquo;s a <a href="https://git-scm.com/docs/gittutorial">link</a> for a good resource.</p>
+
                           
                         </div>
                         
