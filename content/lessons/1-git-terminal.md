@@ -42,7 +42,7 @@ This activity will test your terminal and git skills by having you download a pr
 6. Back to terminal! Use the command `git init` to create a git repository.
 7. The command `git add *` will add all the files in the current directory to this new repo you just initialized locally. 
 8. `git commit -m "first commit"` will commit this add to this new local repository. 
-9. `git remote add origin (URL_OF_YOUR_REMOTE_REPO)` will connect your local repository to the remote one you created on github.com.
+9. `git remote set-url origin (URL_OF_YOUR_REMOTE_REPO)` will connect your local repository to the remote one you created on github.com.
 10. Final step! Run `git push -u origin master` to push your local commit to your remote repository. 
 
 # Next Steps
