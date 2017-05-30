@@ -6,6 +6,7 @@
             <section>
                 <div class="intro"> {{ .Content }} </div>
                 {{ if isset .Site.Params "email" }}
+                {{ if .Params.showForm }}
                 <div id="application-message"></div>
                 <form class="application-form" method="post" action="https://formspree.io/{{ .Site.Params.email }}">
                     <div class="row">
@@ -69,6 +70,7 @@
                         </div>
                     </div>
                 </form>
+                {{ end }}
                 {{ end }}
             </section>
         </div>

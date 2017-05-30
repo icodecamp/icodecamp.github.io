@@ -24,11 +24,11 @@ paginate = 10
     url  = "/faq/"
     weight = 3
 
-[[menu.main]]
-    name = "Application"
-    identifier = "apply"
-    url  = "/apply/"
-    weight = 4
+# [[menu.main]]
+#    name = "Application"
+#    identifier = "apply"
+#    url  = "/apply/"
+#    weight = 4
 
 [params]
     # for the application form
