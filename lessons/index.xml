@@ -131,7 +131,7 @@ allows the user to interact with the operating system by simpling typing command
       <guid>https://icodecamp.github.io/lessons/2-variables-functions/</guid>
       <description>
 
-&lt;h2 id=&#34;what-is-a-programming-language&#34;&gt;What is a programming language?&lt;/h2&gt;
+&lt;h1 id=&#34;what-is-a-programming-language&#34;&gt;What is a programming language?&lt;/h1&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Humans use languages (English, Urdu, Arabic) to communicate with each other. A program
@@ -156,7 +156,6 @@ looks like this:&lt;/p&gt;
 &lt;p&gt;This notation is very difficult for humans to understand. This is where assembly languages come in. Assembly
 language consists of a set of symbols and letters which a translator uses to translate to machine
 language. This translator is called the &amp;lsquo;assembler.&amp;rsquo;&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;ORG 100 
 LDA A
@@ -169,7 +168,6 @@ C, DEC 0
 END
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;blockquote&gt;
 &lt;p&gt;We can sort of see what this program is doing. However, this form of communication is still not intuitive for humans. Some
 progress must be made.&lt;/p&gt;
 
@@ -178,7 +176,6 @@ to communicate with a computer. These programs are compiled into machine code by
 imply execution of the code. It just referes to the conversion from a high level programming language to machine code.
 The advantage here is that these high level programming languages are portable. I can code on my laptop and run it on
 my desktop.&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;int a, b, c;
 a = 83;
@@ -186,15 +183,13 @@ b = -2;
 c = a + b;
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;blockquote&gt;
 &lt;p&gt;Credit: &lt;a href=&#34;http://people.uncw.edu/tompkinsj/242/BasicComputer/AddTwoNumbers.htm&#34;&gt;http://people.uncw.edu/tompkinsj/242/BasicComputer/AddTwoNumbers.htm&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+&lt;h1 id=&#34;variables&#34;&gt;Variables&lt;/h1&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Variables are used to store information. A variable can hold many different types of information:&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;String: &amp;quot;abc&amp;quot;, &amp;quot;hello&amp;quot;, &amp;quot;YAM&amp;quot;
 Integer: 2, -5, 6, 100000
@@ -202,12 +197,12 @@ Float: 2.0, 5.66, -9.89
 Boolean: true, false
 Char: &#39;y&#39;, &#39;A&#39;, &#39;m&#39;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;how-to-create-variables&#34;&gt;How to create variables?&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Variables are easy with Python:&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;first_name = &amp;quot;Khurram&amp;quot;
 last_name = &amp;quot;Ghullamani&amp;quot;
@@ -216,9 +211,11 @@ height = 65
 married = false
 spouse = &amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;what-can-you-do-with-them&#34;&gt;What can you do with them?&lt;/h2&gt;
 
+&lt;blockquote&gt;
 &lt;pre&gt;&lt;code&gt;//update the varibale completely
 first_name = &amp;quot;Chandler&amp;quot;
 last_name = &amp;quot;Bing&amp;quot;
@@ -235,45 +232,45 @@ my_number = age + height
 // string concatenation -- Chandler Bing
 full_name = first_name + &amp;quot; &amp;quot; + last_name
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;what-can-t-you-do-with-them&#34;&gt;What can&amp;rsquo;t you do with them?&lt;/h2&gt;
 
+&lt;blockquote&gt;
 &lt;pre&gt;&lt;code&gt;// type checking
 age + name ---&amp;gt;&amp;gt; ERROR
 married+age ----&amp;gt;&amp;gt; ERROR
 first_name-last_name ----&amp;gt;&amp;gt; ERROR
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&#34;functions&#34;&gt;Functions&lt;/h2&gt;
+&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;A function is a piece of code that can be used to execute multiple code statements over and over again. Example:&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;def my_first_function(age):
 	age = age + 10
 	return age
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;blockquote&gt;
 &lt;p&gt;Here, def is keyword reserved in Python. It is used to declare a function.
 The name of the function is &amp;ldquo;my_first_function&amp;rdquo;. It takes a parameter known as age. A parameter is simply
 information that the user can pass into the function. The two lines after are known as the function body.
 This function takes the age, adds 10 and returns (gives the user back) the new value. After your return, your
 program is over. Example:&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;my_age = 22
 new_age = my_first_function(my_age)
 
 // new_age now equals 22 + 10 = 32
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
 
 &lt;h2 id=&#34;variable-scope-in-functions&#34;&gt;Variable Scope in functions&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;A variable can be global or local. Example:&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;def my_height_function(user_height):
 	my_height = 65
@@ -283,10 +280,8 @@ new_age = my_first_function(my_age)
 my_height = my_height + 10 ------&amp;gt;&amp;gt; ERROR
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;blockquote&gt;
 &lt;p&gt;In the example above, my_height is a local variable. It was defined in the scope of the function. It cannot be used
 outside the function. We could switch our definition to look like this:&lt;/p&gt;
-&lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code&gt;my_height = 65
 def my_height_function(user_height):
@@ -296,13 +291,15 @@ def my_height_function(user_height):
 my_height = my_height + 10 ------&amp;gt;&amp;gt; This is correct
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;blockquote&gt;
 &lt;p&gt;Since my_height is defined outside the function, it can be used inside the function as well as outside the function. This
 is an example of a global variable.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;h1 id=&#34;activity&#34;&gt;Activity&lt;/h1&gt;
+
 &lt;h2 id=&#34;let-s-run-your-first-program-what-do-you-think-this-does&#34;&gt;Let&amp;rsquo;s run your first program. What do you think this does?&lt;/h2&gt;
 
+&lt;blockquote&gt;
 &lt;pre&gt;&lt;code&gt;import webbrowser
 url = &amp;quot;https://www.google.com/#q=&amp;quot;
 def search_for():
@@ -312,8 +309,9 @@ def search_for():
 
 search_for()
 &lt;/code&gt;&lt;/pre&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 id=&#34;lets-make-your-first-push-to-github&#34;&gt;Lets make your first push to github&lt;/h2&gt;
+&lt;h2 id=&#34;clone-this-repositiory-https-github-com-icodecamp-module2-variables&#34;&gt;Clone &lt;a href=&#34;https://github.com/icodecamp/module2_variables&#34;&gt;this repositiory&lt;/a&gt;&lt;/h2&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;Complete the problems in the file assignment.py. Then run the tests in the file test_assignment.py using the command:

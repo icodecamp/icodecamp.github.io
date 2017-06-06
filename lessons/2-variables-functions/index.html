@@ -85,12 +85,6 @@
                     
                   </li>
                   
-                  <li class="dropdown">
-                    
-                    <a href="/apply/">Application</a>
-                    
-                  </li>
-                  
                 </ul>
             </div>
             
@@ -129,8 +123,195 @@
                         <div id="post-content">
                           
                           
-                               <h2>hello, there.</h2>
-                               <p>this content is under development. </p>
+                              
+
+<h1 id="what-is-a-programming-language">What is a programming language?</h1>
+
+<blockquote>
+<p>Humans use languages (English, Urdu, Arabic) to communicate with each other. A program
+is a set of instructions that tells a computer what to do. Programs are written using
+a programming language. A programming language, then, is used by humans to communicate
+with computers.</p>
+
+<p>There is still a language barrier between computers and humans. Computers understand machine language. Machine language
+is often times platform specific. Code generated on one machine may not run on another machine. Machine language
+looks like this:</p>
+
+<pre><code>| Instruction Binary Code  | 
+| 0010 0001 0000 0100  | 
+| 0001 0001 0000 0101  | 
+| 0011 0001 0000 0110  |
+| 0111 0000 0000 0001  | 
+| 0000 0000 0101 0011  | 
+| 0000 0000 0101 0011  |
+| 0000 0000 0000 0000  |
+</code></pre>
+
+<p>This notation is very difficult for humans to understand. This is where assembly languages come in. Assembly
+language consists of a set of symbols and letters which a translator uses to translate to machine
+language. This translator is called the &lsquo;assembler.&rsquo;</p>
+
+<pre><code>ORG 100 
+LDA A
+ADD B
+STA C
+HLT
+A, DEC 83
+B, DEC –2
+C, DEC 0
+END
+</code></pre>
+
+<p>We can sort of see what this program is doing. However, this form of communication is still not intuitive for humans. Some
+progress must be made.</p>
+
+<p>A high level programming language uses English logic (if, while, for, then, else) and mathematical symbols (+, -, %, |, &amp;)
+to communicate with a computer. These programs are compiled into machine code by a compiler. Compilation does not
+imply execution of the code. It just referes to the conversion from a high level programming language to machine code.
+The advantage here is that these high level programming languages are portable. I can code on my laptop and run it on
+my desktop.</p>
+
+<pre><code>int a, b, c;
+a = 83;
+b = -2;
+c = a + b;
+</code></pre>
+
+<p>Credit: <a href="http://people.uncw.edu/tompkinsj/242/BasicComputer/AddTwoNumbers.htm">http://people.uncw.edu/tompkinsj/242/BasicComputer/AddTwoNumbers.htm</a></p>
+</blockquote>
+
+<h1 id="variables">Variables</h1>
+
+<blockquote>
+<p>Variables are used to store information. A variable can hold many different types of information:</p>
+
+<pre><code>String: &quot;abc&quot;, &quot;hello&quot;, &quot;YAM&quot;
+Integer: 2, -5, 6, 100000
+Float: 2.0, 5.66, -9.89
+Boolean: true, false
+Char: 'y', 'A', 'm'
+</code></pre>
+</blockquote>
+
+<h2 id="how-to-create-variables">How to create variables?</h2>
+
+<blockquote>
+<p>Variables are easy with Python:</p>
+
+<pre><code>first_name = &quot;Khurram&quot;
+last_name = &quot;Ghullamani&quot;
+age = 22
+height = 65
+married = false
+spouse = &quot;&quot;
+</code></pre>
+</blockquote>
+
+<h2 id="what-can-you-do-with-them">What can you do with them?</h2>
+
+<blockquote>
+<pre><code>//update the varibale completely
+first_name = &quot;Chandler&quot;
+last_name = &quot;Bing&quot;
+married = true
+spouse = &quot;Monica&quot;
+
+// perform mathematical operations
+age = age + 30
+height -= 2
+
+// random stuff
+my_number = age + height
+
+// string concatenation -- Chandler Bing
+full_name = first_name + &quot; &quot; + last_name
+</code></pre>
+</blockquote>
+
+<h2 id="what-can-t-you-do-with-them">What can&rsquo;t you do with them?</h2>
+
+<blockquote>
+<pre><code>// type checking
+age + name ---&gt;&gt; ERROR
+married+age ----&gt;&gt; ERROR
+first_name-last_name ----&gt;&gt; ERROR
+</code></pre>
+</blockquote>
+
+<h1 id="functions">Functions</h1>
+
+<blockquote>
+<p>A function is a piece of code that can be used to execute multiple code statements over and over again. Example:</p>
+
+<pre><code>def my_first_function(age):
+	age = age + 10
+	return age
+</code></pre>
+
+<p>Here, def is keyword reserved in Python. It is used to declare a function.
+The name of the function is &ldquo;my_first_function&rdquo;. It takes a parameter known as age. A parameter is simply
+information that the user can pass into the function. The two lines after are known as the function body.
+This function takes the age, adds 10 and returns (gives the user back) the new value. After your return, your
+program is over. Example:</p>
+
+<pre><code>my_age = 22
+new_age = my_first_function(my_age)
+
+// new_age now equals 22 + 10 = 32
+</code></pre>
+</blockquote>
+
+<h2 id="variable-scope-in-functions">Variable Scope in functions</h2>
+
+<blockquote>
+<p>A variable can be global or local. Example:</p>
+
+<pre><code>def my_height_function(user_height):
+	my_height = 65
+	new_height = my_height + user_height
+	return new_height
+
+my_height = my_height + 10 ------&gt;&gt; ERROR
+</code></pre>
+
+<p>In the example above, my_height is a local variable. It was defined in the scope of the function. It cannot be used
+outside the function. We could switch our definition to look like this:</p>
+
+<pre><code>my_height = 65
+def my_height_function(user_height):
+	new_height = my_height + user_height
+	return new_height
+
+my_height = my_height + 10 ------&gt;&gt; This is correct
+</code></pre>
+
+<p>Since my_height is defined outside the function, it can be used inside the function as well as outside the function. This
+is an example of a global variable.</p>
+</blockquote>
+
+<h1 id="activity">Activity</h1>
+
+<h2 id="let-s-run-your-first-program-what-do-you-think-this-does">Let&rsquo;s run your first program. What do you think this does?</h2>
+
+<blockquote>
+<pre><code>import webbrowser
+url = &quot;https://www.google.com/#q=&quot;
+def search_for():
+	query = raw_input(&quot;What would you like to search for?&quot;)
+	my_url = url + query
+	webbrowser.open(my_url)
+
+search_for()
+</code></pre>
+</blockquote>
+
+<h2 id="clone-this-repositiory-https-github-com-icodecamp-module2-variables">Clone <a href="https://github.com/icodecamp/module2_variables">this repositiory</a></h2>
+
+<blockquote>
+<p>Complete the problems in the file assignment.py. Then run the tests in the file test_assignment.py using the command:
+python test_assignmet.py. See how many you can get correct</p>
+</blockquote>
+
                           
                         </div>
                         
