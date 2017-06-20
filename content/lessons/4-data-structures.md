@@ -1,8 +1,8 @@
 +++
-weight = 3.0
+weight = 4.0
 tags = []
 title = "Data Structures"
-subtitle = "Module 3"
+subtitle = "Module 4"
 description = "Learn about lists and dictionaries" 
 bannerImage = "img/banners/image.png"
 isBeta = true
