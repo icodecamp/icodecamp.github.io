@@ -321,11 +321,134 @@ python test_assignmet.py. See how many you can get correct&lt;/p&gt;
     </item>
     
     <item>
-      <title>Data Structures</title>
-      <link>https://icodecamp.github.io/lessons/3-data-structures/</link>
+      <title>Conditional Statements</title>
+      <link>https://icodecamp.github.io/lessons/3-conditional-statements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://icodecamp.github.io/lessons/3-data-structures/</guid>
+      <guid>https://icodecamp.github.io/lessons/3-conditional-statements/</guid>
+      <description>
+
+&lt;h1 id=&#34;what-are-the-three-conditional-statements&#34;&gt;What are the three conditional statements?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;iCodeCamp is a great example of the open source community. All of our source code and materials are accessible for free from practically anywhere to be used for practically any purpose. &lt;strong&gt;Github&lt;/strong&gt; is a platform that stores your code, but also lets other people access it and build off of it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Today we are going to fork this project:&lt;/strong&gt; &lt;a href=&#34;https://github.com/icodecamp/module3_snake&#34;&gt;https://github.com/icodecamp/module3_snake&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;This project uses an external &lt;a href=&#34;https://askubuntu.com/questions/361741/what-are-dependencies&#34;&gt;&lt;strong&gt;dependency&lt;/strong&gt;&lt;/a&gt; called &lt;code&gt;pygame&lt;/code&gt;. Be sure to install pygame with python&amp;rsquo;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Package_manager&#34;&gt;&lt;strong&gt;package manager&lt;/strong&gt;&lt;/a&gt; by typing in &lt;code&gt;pip install pygame&lt;/code&gt; in either terminal or GitBash.&lt;/p&gt;
+
+&lt;h1 id=&#34;what-is-flow-control&#34;&gt;What is Flow Control?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.openbookproject.net/books/bpp4awd/ch04.html&#34;&gt;&lt;strong&gt;Conditional statements&lt;/strong&gt;&lt;/a&gt; allow us to run some code only if a condition is met&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&#34;if-statements&#34;&gt;if statements&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;if {BOOLEAN EXPRESSION}:
+    {STATEMENTS}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = 5
+
+if a == 5:
+    print(&amp;quot;a is 5&amp;quot;)
+    print(&amp;quot;this will totally print&amp;quot;)
+    return
+if a != 5:
+    print(&amp;quot;a is not five&amp;quot;)
+    print(&amp;quot;this will totally not print&amp;quot;)
+    return
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;if-else-statements&#34;&gt;if else statements&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;if {BOOLEAN EXPRESSION}:
+    {STATEMENTS_1}        # executed if condition evaluates to True
+else:
+    {STATEMENTS_2}        # executed if condition evaluates to False
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = 5
+
+if a == 5:
+    print(&amp;quot;a is 5&amp;quot;)
+    print(&amp;quot;this will totally print&amp;quot;)
+    return
+else:
+    print(&amp;quot;a is not five&amp;quot;)
+    print(&amp;quot;this will totally not print&amp;quot;)
+    return
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;chained-conditionals&#34;&gt;chained conditionals&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;if {BOOLEAN EXPRESSION1}:
+    {STATEMENTS_A}
+elif{BOOLEAN EXPRESSION2}:
+  {STATEMENTS_B}
+else:
+    {STATEMENTS_C}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = 5
+
+if a == 1:
+    print(&amp;quot;a is 1&amp;quot;)
+elif a != 300:
+    print(&amp;quot;a is not equal to 300&amp;quot;)
+elif a &amp;gt; 5:
+    print(&amp;quot;a is greater than 5&amp;quot;)
+elif a &amp;lt; 5:
+    print(&amp;quot;a is less than 5&amp;quot;)
+else:
+    print(&amp;quot;a is 5&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;project-snake&#34;&gt;Project Snake&lt;/h1&gt;
+
+&lt;p&gt;This project is an open source game in which a hungry snake roams around a field in search of sparkling food. Your task is to implement the conditional statements required to make the snake move around.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;If you haven&amp;rsquo;t done so already, fork the &lt;a href=&#34;https://github.com/icodecamp/module3_snake&#34;&gt;&lt;strong&gt;project&lt;/strong&gt;&lt;/a&gt; and clone it to your desktop&lt;/li&gt;
+&lt;li&gt;The project depends on an open source package called &amp;ldquo;pygame.&amp;rdquo; Use the command &lt;code&gt;pip install pygame&lt;/code&gt; in either GitBash or Terminal to install it.&lt;/li&gt;
+&lt;li&gt;Open up the file &lt;code&gt;snake.py&lt;/code&gt; in sublime text.&lt;/li&gt;
+&lt;li&gt;To be able to use pygame &lt;code&gt;import pygame&lt;/code&gt; in the first line of the project&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Add a conditional statement to check if the function&amp;rsquo;s parameter is None, if it isn&amp;rsquo;t then set the self.current_direction to input_direction&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if input_direction != None:
+    self.currend_direction = input_direction
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For each of the directions &lt;code&gt;up&lt;/code&gt;, &lt;code&gt;down&lt;/code&gt;, &lt;code&gt;right&lt;/code&gt;, and &lt;code&gt;left&lt;/code&gt; add a conditional to return the future location of the snake. Example for the &lt;code&gt;up&lt;/code&gt; command is shown below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if (self.current_direction == up):
+    return (location[0] - 1, location[1])
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Run the game by typing in &lt;code&gt;python game.py&lt;/code&gt; in the directory of the project on either GitBash or Terminal&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;There is a bug in the program, the snake can accidentally &amp;ldquo;eat&amp;rdquo; itself. Can you figure out a way to fix this? A finished version of this code can be found &lt;a href=&#34;https://github.com/icodecamp/module3_snake/blob/3758086d85b1c47d67e433bd61bd201c169a81c9/snake.py&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Structures</title>
+      <link>https://icodecamp.github.io/lessons/4-data-structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/4-data-structures/</guid>
       <description>
 
 &lt;!-- 

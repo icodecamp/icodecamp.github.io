@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Data Structures</title>
+  <title>Conditional Statements</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
@@ -117,14 +117,127 @@
             <div class="container" style="margin-bottom: 50px">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
-                        <h1 id="title">Data Structures</h1>
+                        <h1 id="title">Conditional Statements</h1>
                         <h2 id="subtitle">Module 3</h2>
                         
                         <div id="post-content">
                           
                           
-                               <h2>hello, there.</h2>
-                               <p>this content is under development. </p>
+                              
+
+<h1 id="what-are-the-three-conditional-statements">What are the three conditional statements?</h1>
+
+<blockquote>
+<p>Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose.</p>
+</blockquote>
+
+<p>iCodeCamp is a great example of the open source community. All of our source code and materials are accessible for free from practically anywhere to be used for practically any purpose. <strong>Github</strong> is a platform that stores your code, but also lets other people access it and build off of it.</p>
+
+<p><strong>Today we are going to fork this project:</strong> <a href="https://github.com/icodecamp/module3_snake">https://github.com/icodecamp/module3_snake</a></p>
+
+<p>This project uses an external <a href="https://askubuntu.com/questions/361741/what-are-dependencies"><strong>dependency</strong></a> called <code>pygame</code>. Be sure to install pygame with python&rsquo;s <a href="https://en.wikipedia.org/wiki/Package_manager"><strong>package manager</strong></a> by typing in <code>pip install pygame</code> in either terminal or GitBash.</p>
+
+<h1 id="what-is-flow-control">What is Flow Control?</h1>
+
+<blockquote>
+<p><a href="http://www.openbookproject.net/books/bpp4awd/ch04.html"><strong>Conditional statements</strong></a> allow us to run some code only if a condition is met</p>
+</blockquote>
+
+<h3 id="if-statements">if statements</h3>
+
+<pre><code>if {BOOLEAN EXPRESSION}:
+    {STATEMENTS}
+</code></pre>
+
+<p>example:</p>
+
+<pre><code>a = 5
+
+if a == 5:
+    print(&quot;a is 5&quot;)
+    print(&quot;this will totally print&quot;)
+    return
+if a != 5:
+    print(&quot;a is not five&quot;)
+    print(&quot;this will totally not print&quot;)
+    return
+</code></pre>
+
+<h3 id="if-else-statements">if else statements</h3>
+
+<pre><code>if {BOOLEAN EXPRESSION}:
+    {STATEMENTS_1}        # executed if condition evaluates to True
+else:
+    {STATEMENTS_2}        # executed if condition evaluates to False
+</code></pre>
+
+<p>example:</p>
+
+<pre><code>a = 5
+
+if a == 5:
+    print(&quot;a is 5&quot;)
+    print(&quot;this will totally print&quot;)
+    return
+else:
+    print(&quot;a is not five&quot;)
+    print(&quot;this will totally not print&quot;)
+    return
+</code></pre>
+
+<h3 id="chained-conditionals">chained conditionals</h3>
+
+<pre><code>if {BOOLEAN EXPRESSION1}:
+    {STATEMENTS_A}
+elif{BOOLEAN EXPRESSION2}:
+  {STATEMENTS_B}
+else:
+    {STATEMENTS_C}
+</code></pre>
+
+<p>example:</p>
+
+<pre><code>a = 5
+
+if a == 1:
+    print(&quot;a is 1&quot;)
+elif a != 300:
+    print(&quot;a is not equal to 300&quot;)
+elif a &gt; 5:
+    print(&quot;a is greater than 5&quot;)
+elif a &lt; 5:
+    print(&quot;a is less than 5&quot;)
+else:
+    print(&quot;a is 5&quot;)
+</code></pre>
+
+<h1 id="project-snake">Project Snake</h1>
+
+<p>This project is an open source game in which a hungry snake roams around a field in search of sparkling food. Your task is to implement the conditional statements required to make the snake move around.</p>
+
+<ol>
+<li>If you haven&rsquo;t done so already, fork the <a href="https://github.com/icodecamp/module3_snake"><strong>project</strong></a> and clone it to your desktop</li>
+<li>The project depends on an open source package called &ldquo;pygame.&rdquo; Use the command <code>pip install pygame</code> in either GitBash or Terminal to install it.</li>
+<li>Open up the file <code>snake.py</code> in sublime text.</li>
+<li>To be able to use pygame <code>import pygame</code> in the first line of the project</li>
+
+<li><p>Add a conditional statement to check if the function&rsquo;s parameter is None, if it isn&rsquo;t then set the self.current_direction to input_direction</p>
+
+<pre><code>if input_direction != None:
+    self.currend_direction = input_direction
+</code></pre></li>
+
+<li><p>For each of the directions <code>up</code>, <code>down</code>, <code>right</code>, and <code>left</code> add a conditional to return the future location of the snake. Example for the <code>up</code> command is shown below.</p>
+
+<pre><code>if (self.current_direction == up):
+    return (location[0] - 1, location[1])
+</code></pre></li>
+
+<li><p>Run the game by typing in <code>python game.py</code> in the directory of the project on either GitBash or Terminal</p></li>
+
+<li><p>There is a bug in the program, the snake can accidentally &ldquo;eat&rdquo; itself. Can you figure out a way to fix this? A finished version of this code can be found <a href="https://github.com/icodecamp/module3_snake/blob/3758086d85b1c47d67e433bd61bd201c169a81c9/snake.py"><strong>here</strong></a>.</p></li>
+</ol>
+
                           
                         </div>
                         
