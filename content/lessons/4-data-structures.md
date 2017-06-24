@@ -1,83 +1,120 @@
 +++
 weight = 4.0
 tags = []
-title = "Data Structures"
+title = "Lists and Loops"
 subtitle = "Module 4"
-description = "Learn about lists and dictionaries" 
+description = "Learn about lists and for loops" 
 bannerImage = "img/banners/image.png"
 isBeta = true
 +++
 
-<!-- {{< youtube w7Ft2ymGmfc >}} -->
+# What are Lists?
+>
+> The list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.
+> 
 
-need some sort of intro!  Unit testing
+# How can I create a List?
 
-# What are Data Structures?
-> [__Data Structures__](http://www.thomas-cokelaer.info/tutorials/python/data_structures.html)
-> are used to store and organize data. Throughout this course, we will be covering four data
-> structures that are built into python.
+Easy. Here is an example on creating an empty list:
 
-> [strings](http://www.thomas-cokelaer.info/tutorials/python/strings.html) are
-> _immutable_ ordered sequences of characters 
-~~~
-stringy= "giordanos is better than lou malnatis!"
-len(stringy)
-stringy[12] 
-~~~
+~~~~
+a = []
+~~~~
 
+List with integers:
 
-> [lists](http://www.thomas-cokelaer.info/tutorials/python/lists.html) are  _mutable_
-> ordered sequences of any type of object 
-~~~
-listy = [1.0, 2, 3, "a", "bee", "see", true]
-~~~
+~~~~
+a = [1, 2, 3]
+~~~~
 
-> [tuples](http://www.thomas-cokelaer.info/tutorials/python/tuples.html) are
-> _immutable_ ordered sequences of any type of object 
-~~~
-tupley = (1.0, 2, 3, "a", "bee", "see", true)  
-~~~
+List with integers, strings, booleans, floats, and list:
 
-> [dictionaries](http://www.thomas-cokelaer.info/tutorials/python/dicts.html) map a key
-> object to a value object. The objects don't necessarily have to be the same. The pairs
-> are not organized and we can't have duplicate keys 
-~~~
-dicty = { "a" : "apple", "b" : "banana", "h" : "Harambe" }
-dicty2 = { 1 : "one", "two" : 2, False : True }
-dicty["a"]
-del dicty["b"]
-dicty.update(dicty2)
-~~~
+~~~~
+a = [1, "hello", True, 4.0, [1, 2, 3]]
+~~~~
 
-Activity Use indexes (especially zero index) Use keys to update your score 
+# How do I access elements in the List?
 
+You can simply access in the elements in a list using bracket notation. The only tricky part is remembering that the first element in the list is at index 0, the second element is at index 1, and so on. 
+
+Example:
+
+~~~~
+a = [1, "hello", True, 4.0]
+
+print(a[0]) -> prints 1
+print(a[1]) -> prints "hello"
+print(a[2]) -> prints True
+print(a[3]) -> prints 4.0
+
+~~~~
+
+Is there an easier of printing every element in a list?
+
+Yeah. You can use Loops.
 
 # What are Loops?
->Definition 
-##### For Loop
-##### While Loop
-##### Range
-##### Break
-##### continue Activity: Find sum
-and average of a set of numbers in an array
+
+There are two types of loops in Python, for and while. 
+
+For Loop:
+>
+> for loops are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.
+>
+
+Example of printing all numbers between one and a hundred:
+
+~~~~
+for x in range(1, 101):
+	print(x)
+~~~~
+
+Example of printing all elements in a list:
+~~~~
+a = [1, "hello", True, 4.0]
+
+for element in a:
+	print(element)
+~~~~
+
+# Activity - Editing images with loops
+
+An image is often represented as a list of lists. Where each element of the outer most list is a list that represents the first row of the image. The inner list contains tuples of rgb values: (r, g, b). The first element represents the red pixel value, the second represents green pixel value, and the third is the blue pixel value. 
+
+This is an example of a 2x2 image:
+~~~~
+imageA = [[(0, 0, 0), (255, 255,255)], [(0, 0, 0), (255, 255,255)]]
+
+image[0, 0] -> Represents the upper left corner of the image
+
+image[0, 1] -> Represents the upper right corner of the image
+
+image[1, 0] -> Represents the lower left corner of the image
+
+image[1, 1] -> Represents the lower right corner of the image
+~~~~
+
+Activity Steps:
+
+1. git clone https://github.com/icodecamp/module4_imageProcessing.git
+
+2. Edit grayScale.png
+
+3. python grayScale.png
+
+4. Enter path of the desired image (i.e pikachu.png)
+
+5. Enter path of the new image (i.e gray_pikachu.png)
 
 
-# What is Flow Control?
->Definition 
-##### If
-##### Else if
-##### Else
 
-Activity: Finding largest and smallest number in an unsorted array
 
-# Activity Activity While (true): User types in a string, then you add the string to an
-array, and then you speak outloud all strings in array as a sentence If user types in
-“exit” quit program Function that takes in a string and actually reads it out loud
-Introduce assignment and clear up confusion About pixels (RBG) Double for loops 
 
-# Project Mini-project to push to Github Photo manipulation Select an image, the program
-will loop through all pixels and edit the blue value by 10% or something and make the
-image more blue Optional part 2: rotate the image or something TODO: For pixels in x For
-pixels in y pixel(x,y)[2] = pixel(x,y)[2] * 1.5
+
+
+
+
+
+
 
 
