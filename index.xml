@@ -380,127 +380,118 @@ else:
 &lt;li&gt;If you haven&amp;rsquo;t done so already, fork the &lt;a href=&#34;https://github.com/icodecamp/module3_snake&#34;&gt;&lt;strong&gt;project&lt;/strong&gt;&lt;/a&gt; and clone it to your desktop&lt;/li&gt;
 &lt;li&gt;The project depends on an open source package called &amp;ldquo;pygame.&amp;rdquo; Use the command &lt;code&gt;pip install pygame&lt;/code&gt; in either GitBash or Terminal to install it.&lt;/li&gt;
 &lt;li&gt;Open up the file &lt;code&gt;snake.py&lt;/code&gt; in sublime text.&lt;/li&gt;
-&lt;li&gt;To be able to use pygame &lt;code&gt;import pygame&lt;/code&gt; in the first line of the project&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Add a conditional statement to check if the function&amp;rsquo;s parameter is None, if it isn&amp;rsquo;t then set the self.current_direction to input_direction&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;if input_direction != None:
-    self.currend_direction = input_direction
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For each of the directions &lt;code&gt;up&lt;/code&gt;, &lt;code&gt;down&lt;/code&gt;, &lt;code&gt;right&lt;/code&gt;, and &lt;code&gt;left&lt;/code&gt; add a conditional to return the future location of the snake. Example for the &lt;code&gt;up&lt;/code&gt; command is shown below.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;if (self.current_direction == up):
-    return (location[0] - 1, location[1])
-&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Run the game by typing in &lt;code&gt;python game.py&lt;/code&gt; in the directory of the project on either GitBash or Terminal&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;There is a bug in the program, the snake can accidentally &amp;ldquo;eat&amp;rdquo; itself. Can you figure out a way to fix this? A finished version of this code can be found &lt;a href=&#34;https://github.com/icodecamp/module3_snake/blob/3758086d85b1c47d67e433bd61bd201c169a81c9/snake.py&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;Notice that the first line of the file is &lt;code&gt;import pygame&lt;/code&gt; this allows us to use the pygame in our game&lt;/li&gt;
+&lt;li&gt;Scroll to the bottom of the file. Fill in the missing segments using &lt;strong&gt;if&lt;/strong&gt;, &lt;strong&gt;elif&lt;/strong&gt;, and &lt;strong&gt;else&lt;/strong&gt; statements. The function should either return &lt;code&gt;move_up&lt;/code&gt;, &lt;code&gt;move_down&lt;/code&gt;, &lt;code&gt;move_left&lt;/code&gt;, or &lt;code&gt;move_right&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Run the game by typing in &lt;code&gt;python game.py&lt;/code&gt; in the directory of the project on either GitBash or Terminal&lt;/li&gt;
 &lt;/ol&gt;
+
+&lt;p&gt;If you are having trouble with the code, you can find the solutions &lt;a href=&#34;https://github.com/icodecamp/module3_snake/blob/master/snake_solution.py&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Data Structures</title>
+      <title>Lists and Loops</title>
       <link>https://icodecamp.github.io/lessons/4-data-structures/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://icodecamp.github.io/lessons/4-data-structures/</guid>
       <description>
 
-&lt;!-- 
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/w7Ft2ymGmfc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
- --&gt;
-
-&lt;p&gt;need some sort of intro!  Unit testing&lt;/p&gt;
-
-&lt;h1 id=&#34;what-are-data-structures&#34;&gt;What are Data Structures?&lt;/h1&gt;
+&lt;h1 id=&#34;what-are-lists&#34;&gt;What are Lists?&lt;/h1&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/data_structures.html&#34;&gt;&lt;strong&gt;Data Structures&lt;/strong&gt;&lt;/a&gt;
-are used to store and organize data. Throughout this course, we will be covering four data
-structures that are built into python.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/strings.html&#34;&gt;strings&lt;/a&gt; are
-&lt;em&gt;immutable&lt;/em&gt; ordered sequences of characters&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;stringy= &amp;quot;giordanos is better than lou malnatis!&amp;quot;
-len(stringy)
-stringy[12] 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/lists.html&#34;&gt;lists&lt;/a&gt; are  &lt;em&gt;mutable&lt;/em&gt;
-ordered sequences of any type of object&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;listy = [1.0, 2, 3, &amp;quot;a&amp;quot;, &amp;quot;bee&amp;quot;, &amp;quot;see&amp;quot;, true]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/tuples.html&#34;&gt;tuples&lt;/a&gt; are
-&lt;em&gt;immutable&lt;/em&gt; ordered sequences of any type of object&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;tupley = (1.0, 2, 3, &amp;quot;a&amp;quot;, &amp;quot;bee&amp;quot;, &amp;quot;see&amp;quot;, true)  
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.thomas-cokelaer.info/tutorials/python/dicts.html&#34;&gt;dictionaries&lt;/a&gt; map a key
-object to a value object. The objects don&amp;rsquo;t necessarily have to be the same. The pairs
-are not organized and we can&amp;rsquo;t have duplicate keys&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;dicty = { &amp;quot;a&amp;quot; : &amp;quot;apple&amp;quot;, &amp;quot;b&amp;quot; : &amp;quot;banana&amp;quot;, &amp;quot;h&amp;quot; : &amp;quot;Harambe&amp;quot; }
-dicty2 = { 1 : &amp;quot;one&amp;quot;, &amp;quot;two&amp;quot; : 2, False : True }
-dicty[&amp;quot;a&amp;quot;]
-del dicty[&amp;quot;b&amp;quot;]
-dicty.update(dicty2)
-&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Activity Use indexes (especially zero index) Use keys to update your score&lt;/p&gt;
+&lt;h1 id=&#34;how-can-i-create-a-list&#34;&gt;How can I create a List?&lt;/h1&gt;
+
+&lt;p&gt;Easy. Here is an example on creating an empty list:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = []
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;List with integers:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = [1, 2, 3]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;List with integers, strings, booleans, floats, and list:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = [1, &amp;quot;hello&amp;quot;, True, 4.0, [1, 2, 3]]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;how-do-i-access-elements-in-the-list&#34;&gt;How do I access elements in the List?&lt;/h1&gt;
+
+&lt;p&gt;You can simply access in the elements in a list using bracket notation. The only tricky part is remembering that the first element in the list is at index 0, the second element is at index 1, and so on.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;a = [1, &amp;quot;hello&amp;quot;, True, 4.0]
+
+print(a[0]) -&amp;gt; prints 1
+print(a[1]) -&amp;gt; prints &amp;quot;hello&amp;quot;
+print(a[2]) -&amp;gt; prints True
+print(a[3]) -&amp;gt; prints 4.0
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Is there an easier of printing every element in a list?&lt;/p&gt;
+
+&lt;p&gt;Yeah. You can use Loops.&lt;/p&gt;
 
 &lt;h1 id=&#34;what-are-loops&#34;&gt;What are Loops?&lt;/h1&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Definition&lt;/p&gt;
+&lt;p&gt;There are two types of loops in Python, for and while.&lt;/p&gt;
 
-&lt;h5 id=&#34;for-loop&#34;&gt;For Loop&lt;/h5&gt;
+&lt;p&gt;For Loop:
+&amp;gt;
+&amp;gt; for loops are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.
+&amp;gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;while-loop&#34;&gt;While Loop&lt;/h5&gt;
+&lt;p&gt;Example of printing all numbers between one and a hundred:&lt;/p&gt;
 
-&lt;h5 id=&#34;range&#34;&gt;Range&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;for x in range(1, 101):
+	print(x)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h5 id=&#34;break&#34;&gt;Break&lt;/h5&gt;
+&lt;p&gt;Example of printing all elements in a list:&lt;/p&gt;
 
-&lt;h5 id=&#34;continue-activity-find-sum&#34;&gt;continue Activity: Find sum&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;a = [1, &amp;quot;hello&amp;quot;, True, 4.0]
 
-&lt;p&gt;and average of a set of numbers in an array&lt;/p&gt;
-&lt;/blockquote&gt;
+for element in a:
+	print(element)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;what-is-flow-control&#34;&gt;What is Flow Control?&lt;/h1&gt;
+&lt;h1 id=&#34;activity-editing-images-with-loops&#34;&gt;Activity - Editing images with loops&lt;/h1&gt;
 
-&lt;blockquote&gt;
-&lt;p&gt;Definition&lt;/p&gt;
+&lt;p&gt;An image is often represented as a list of lists. Where each element of the outer most list is a list that represents the first row of the image. The inner list contains tuples of rgb values: (r, g, b). The first element represents the red pixel value, the second represents green pixel value, and the third is the blue pixel value.&lt;/p&gt;
 
-&lt;h5 id=&#34;if&#34;&gt;If&lt;/h5&gt;
+&lt;p&gt;This is an example of a 2x2 image:&lt;/p&gt;
 
-&lt;h5 id=&#34;else-if&#34;&gt;Else if&lt;/h5&gt;
+&lt;pre&gt;&lt;code&gt;imageA = [[(0, 0, 0), (255, 255,255)], [(0, 0, 0), (255, 255,255)]]
 
-&lt;h5 id=&#34;else&#34;&gt;Else&lt;/h5&gt;
-&lt;/blockquote&gt;
+image[0, 0] -&amp;gt; Represents the upper left corner of the image
 
-&lt;p&gt;Activity: Finding largest and smallest number in an unsorted array&lt;/p&gt;
+image[0, 1] -&amp;gt; Represents the upper right corner of the image
 
-&lt;h1 id=&#34;activity-activity-while-true-user-types-in-a-string-then-you-add-the-string-to-an&#34;&gt;Activity Activity While (true): User types in a string, then you add the string to an&lt;/h1&gt;
+image[1, 0] -&amp;gt; Represents the lower left corner of the image
 
-&lt;p&gt;array, and then you speak outloud all strings in array as a sentence If user types in
-“exit” quit program Function that takes in a string and actually reads it out loud
-Introduce assignment and clear up confusion About pixels (RBG) Double for loops&lt;/p&gt;
+image[1, 1] -&amp;gt; Represents the lower right corner of the image
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&#34;project-mini-project-to-push-to-github-photo-manipulation-select-an-image-the-program&#34;&gt;Project Mini-project to push to Github Photo manipulation Select an image, the program&lt;/h1&gt;
+&lt;p&gt;Activity Steps:&lt;/p&gt;
 
-&lt;p&gt;will loop through all pixels and edit the blue value by 10% or something and make the
-image more blue Optional part 2: rotate the image or something TODO: For pixels in x For
-pixels in y pixel(x,y)[2] = pixel(x,y)[2] * 1.5&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;git clone &lt;a href=&#34;https://github.com/icodecamp/module4_imageProcessing.git&#34;&gt;https://github.com/icodecamp/module4_imageProcessing.git&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Edit grayScale.png&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;python grayScale.png&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter path of the desired image (i.e pikachu.png)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter path of the new image (i.e gray_pikachu.png)&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     

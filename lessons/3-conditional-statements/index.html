@@ -219,24 +219,12 @@ else:
 <li>If you haven&rsquo;t done so already, fork the <a href="https://github.com/icodecamp/module3_snake"><strong>project</strong></a> and clone it to your desktop</li>
 <li>The project depends on an open source package called &ldquo;pygame.&rdquo; Use the command <code>pip install pygame</code> in either GitBash or Terminal to install it.</li>
 <li>Open up the file <code>snake.py</code> in sublime text.</li>
-<li>To be able to use pygame <code>import pygame</code> in the first line of the project</li>
-
-<li><p>Add a conditional statement to check if the function&rsquo;s parameter is None, if it isn&rsquo;t then set the self.current_direction to input_direction</p>
-
-<pre><code>if input_direction != None:
-    self.currend_direction = input_direction
-</code></pre></li>
-
-<li><p>For each of the directions <code>up</code>, <code>down</code>, <code>right</code>, and <code>left</code> add a conditional to return the future location of the snake. Example for the <code>up</code> command is shown below.</p>
-
-<pre><code>if (self.current_direction == up):
-    return (location[0] - 1, location[1])
-</code></pre></li>
-
-<li><p>Run the game by typing in <code>python game.py</code> in the directory of the project on either GitBash or Terminal</p></li>
-
-<li><p>There is a bug in the program, the snake can accidentally &ldquo;eat&rdquo; itself. Can you figure out a way to fix this? A finished version of this code can be found <a href="https://github.com/icodecamp/module3_snake/blob/3758086d85b1c47d67e433bd61bd201c169a81c9/snake.py"><strong>here</strong></a>.</p></li>
+<li>Notice that the first line of the file is <code>import pygame</code> this allows us to use the pygame in our game</li>
+<li>Scroll to the bottom of the file. Fill in the missing segments using <strong>if</strong>, <strong>elif</strong>, and <strong>else</strong> statements. The function should either return <code>move_up</code>, <code>move_down</code>, <code>move_left</code>, or <code>move_right</code>.</li>
+<li>Run the game by typing in <code>python game.py</code> in the directory of the project on either GitBash or Terminal</li>
 </ol>
+
+<p>If you are having trouble with the code, you can find the solutions <a href="https://github.com/icodecamp/module3_snake/blob/master/snake_solution.py"><strong>here</strong></a></p>
 
                           
                         </div>
