@@ -5,7 +5,7 @@ title = "Lists and Loops"
 subtitle = "Module 4"
 description = "Learn about lists and for loops" 
 bannerImage = "img/banners/image.png"
-isBeta = true
+isBeta = false
 +++
 
 # What are Lists?
@@ -49,17 +49,15 @@ print(a[3]) -> prints 4.0
 
 ~~~~
 
-Is there an easier of printing every element in a list?
+Is there an easier way of printing every element in a list?
 
 Yeah. You can use Loops.
 
 # What are Loops?
 
-There are two types of loops in Python, for and while. 
+There are two types of loops in Python, __for__ and __while__. 
 
-For Loop:
->
-> for loops are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.
+> [__For loops__](https://wiki.python.org/moin/ForLoop) are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.
 >
 
 Example of printing all numbers between one and a hundred:
@@ -94,17 +92,25 @@ image[1, 0] -> Represents the lower left corner of the image
 image[1, 1] -> Represents the lower right corner of the image
 ~~~~
 
-Activity Steps:
+__Activity Steps__:
 
-1. git clone https://github.com/icodecamp/module4_imageProcessing.git
+1. `pip install pillow`
 
-2. Edit grayScale.png
+2. `git clone https://github.com/icodecamp/module4_imageProcessing.git`
 
-3. python grayScale.png
+3. `cd module4_imageProcessing`
 
-4. Enter path of the desired image (i.e pikachu.png)
+3. Replace all ??? in the __transfrom_image()__ in __transformImage.py__ with the correct code.
 
-5. Enter path of the new image (i.e gray_pikachu.png)
+4. `python transformImage.py`
+
+5. Enter path of the desired image (i.e `pikachu.png`)
+
+6. Enter path of the new image (i.e `gray_pikachu.png`)
+
+7. Look at your new image by `open gray_pikachu.png`
+
+8. Change the code again to tranform your image into new colors.
 
 
 
