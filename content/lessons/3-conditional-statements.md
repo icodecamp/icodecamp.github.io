@@ -106,19 +106,8 @@ This project is an open source game in which a hungry snake roams around a field
 1. If you haven't done so already, fork the [__project__](https://github.com/icodecamp/module3_snake) and clone it to your desktop
 2. The project depends on an open source package called "pygame." Use the command `pip install pygame` in either GitBash or Terminal to install it. 
 3. Open up the file `snake.py` in sublime text.
-4. To be able to use pygame `import pygame` in the first line of the project
-5. Add a conditional statement to check if the function's parameter is None, if it isn't then set the self.current_direction to input_direction
-
-		
-		if input_direction != None:
-			self.currend_direction = input_direction
-		
-
-6. For each of the directions `up`, `down`, `right`, and `left` add a conditional to return the future location of the snake. Example for the `up` command is shown below. 
-		
-			
-		if (self.current_direction == up):
-		    return (location[0] - 1, location[1])
-
+4. Notice that the first line of the file is `import pygame` this allows us to use the pygame in our game 
+5. Scroll to the bottom of the file. Fill in the missing segments using __if__, __elif__, and __else__ statements. The function should either return `move_up`, `move_down`, `move_left`, or `move_right`.
 7. Run the game by typing in `python game.py` in the directory of the project on either GitBash or Terminal
-8. There is a bug in the program, the snake can accidentally "eat" itself. Can you figure out a way to fix this? A finished version of this code can be found [__here__](https://github.com/icodecamp/module3_snake/blob/3758086d85b1c47d67e433bd61bd201c169a81c9/snake.py).
+
+If you are having trouble with the code, you can find the solutions [__here__](https://github.com/icodecamp/module3_snake/blob/master/snake_solution.py)
