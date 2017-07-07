@@ -400,7 +400,7 @@ else:
 &lt;h1 id=&#34;what-are-lists&#34;&gt;What are Lists?&lt;/h1&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;The list is a most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.&lt;/p&gt;
+&lt;p&gt;Lists are the most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h1 id=&#34;how-can-i-create-a-list&#34;&gt;How can I create a List?&lt;/h1&gt;
@@ -435,18 +435,17 @@ print(a[3]) -&amp;gt; prints 4.0
 
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Is there an easier of printing every element in a list?&lt;/p&gt;
+&lt;p&gt;Is there an easier way of printing every element in a list?&lt;/p&gt;
 
 &lt;p&gt;Yeah. You can use Loops.&lt;/p&gt;
 
 &lt;h1 id=&#34;what-are-loops&#34;&gt;What are Loops?&lt;/h1&gt;
 
-&lt;p&gt;There are two types of loops in Python, for and while.&lt;/p&gt;
+&lt;p&gt;There are two types of loops in Python, &lt;strong&gt;for&lt;/strong&gt; and &lt;strong&gt;while&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;For Loop:
-&amp;gt;
-&amp;gt; for loops are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.
-&amp;gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://wiki.python.org/moin/ForLoop&#34;&gt;&lt;strong&gt;For loops&lt;/strong&gt;&lt;/a&gt; are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;Example of printing all numbers between one and a hundred:&lt;/p&gt;
 
@@ -479,18 +478,26 @@ image[1, 0] -&amp;gt; Represents the lower left corner of the image
 image[1, 1] -&amp;gt; Represents the lower right corner of the image
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Activity Steps:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Activity Steps&lt;/strong&gt;:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;git clone &lt;a href=&#34;https://github.com/icodecamp/module4_imageProcessing.git&#34;&gt;https://github.com/icodecamp/module4_imageProcessing.git&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;pip install pillow&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Edit grayScale.png&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git clone https://github.com/icodecamp/module4_imageProcessing.git&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;python grayScale.png&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;cd module4_imageProcessing&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Enter path of the desired image (i.e pikachu.png)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Replace all ??? in the &lt;strong&gt;transfrom_image()&lt;/strong&gt; in &lt;strong&gt;transformImage.py&lt;/strong&gt; with the correct code.&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Enter path of the new image (i.e gray_pikachu.png)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;python transformImage.py&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter path of the desired image (i.e &lt;code&gt;pikachu.png&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Enter path of the new image (i.e &lt;code&gt;gray_pikachu.png&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Look at your new image by &lt;code&gt;open gray_pikachu.png&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Change the code again to tranform your image into new colors.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 </description>
     </item>
