@@ -1,10 +1,10 @@
 +++
-weight = 4.0
+weight = 5.0
 tags = []
-title = "Dictionaries and Loops"
+title = "Dictionaries and While Loops"
 subtitle = "Module 5"
-description = "Learn about dictionaries" 
-bannerImage = "img/banners/image.png"
+description = "Learn about dictionaries and while loops" 
+bannerImage = "img/banners/banking.png"
 isBeta = false
 +++
 
