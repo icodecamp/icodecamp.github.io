@@ -1,14 +1,18 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Lessons</title>
+  <title>Dictionaries and While Loops</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
+  
+  <meta name="description" content="Learn about dictionaries and while loops">
   
 
   <meta name="generator" content="Hugo 0.19" />
@@ -40,7 +44,7 @@
 
   <body>
     <div id="all">
-      <header> <div class="navbar-affixed-top">
+        <header> <div class="navbar-affixed-top">
 
     <div class="navbar navbar-default" role="navigation" id="navbar">
 
@@ -109,108 +113,132 @@
 
 
  </header>
-      <h1 id="title">Lessons</h1>
-      <h2 id="subtitle">what's stopping you?</h2>
-      <div class="container">
-        <div class="lessonList" style="margin-bottom: 50px;">
-          
-          
-          <div class="lessonCard">
-            <div class="lessonImage hide-when-small">
-              
-              <img src="https://icodecamp.github.io/img/banners/intro.png">
-              
-            </div>
-            <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">Course Introduction</h2>
-              <h1 class="title">Getting started</h1>
-              <p class="description"></p>
-              <a href="https://icodecamp.github.io/lessons/0-introduction/" class="btn btn-template-main">View Lesson</a>
-            </div>
-          </div>
-          
-          <div class="lessonCard">
-            <div class="lessonImage hide-when-small">
-              
-              <img src="https://icodecamp.github.io/img/banners/github.png">
-              
-            </div>
-            <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">Module 1</h2>
-              <h1 class="title">Terminal and Git</h1>
-              <p class="description">Terminal is a developers favorite tool to interact with systems. Git is a distributed versioning system that runs on terminal to make collaboration super fun.</p>
-              <a href="https://icodecamp.github.io/lessons/1-git-terminal/" class="btn btn-template-main">View Lesson</a>
-            </div>
-          </div>
-          
-          <div class="lessonCard">
-            <div class="lessonImage hide-when-small">
-              
-              <img src="https://icodecamp.github.io/img/banners/data.png">
-              
-            </div>
-            <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">Module 2</h2>
-              <h1 class="title">Variables and Functions</h1>
-              <p class="description">Time to get up and running and learn the basics</p>
-              <a href="https://icodecamp.github.io/lessons/2-variables-functions/" class="btn btn-template-main">View Lesson</a>
-            </div>
-          </div>
-          
-          <div class="lessonCard">
-            <div class="lessonImage hide-when-small">
-              
-              <img src="https://icodecamp.github.io/img/banners/game.png">
-              
-            </div>
-            <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">Module 3</h2>
-              <h1 class="title">Conditional Statements</h1>
-              <p class="description">Learn about lists and dictionaries</p>
-              <a href="https://icodecamp.github.io/lessons/3-conditional-statements/" class="btn btn-template-main">View Lesson</a>
-            </div>
-          </div>
-          
-          <div class="lessonCard">
-            <div class="lessonImage hide-when-small">
-              
-              <img src="https://icodecamp.github.io/img/banners/image.png">
-              
-            </div>
-            <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">Module 4</h2>
-              <h1 class="title">Lists and Loops</h1>
-              <p class="description">Learn about lists and for loops</p>
-              <a href="https://icodecamp.github.io/lessons/4-data-structures/" class="btn btn-template-main">View Lesson</a>
-            </div>
-          </div>
-          
-          <div class="lessonCard">
-            <div class="lessonImage hide-when-small">
-              
-              <img src="https://icodecamp.github.io/img/banners/banking.png">
-              
-            </div>
-            <div class="lessonInfo full-when-small">
-              <h2 class="subtitle">Module 5</h2>
-              <h1 class="title">Dictionaries and While Loops</h1>
-              <p class="description">Learn about dictionaries and while loops</p>
-              <a href="https://icodecamp.github.io/lessons/5-data-structures-dictionaries/" class="btn btn-template-main">View Lesson</a>
-            </div>
-          </div>
-          
-        </div>
-        <ul class="pager">
-            
-            <li class="previous disabled"><a href="#">&larr; previous</a></li>
-            
+        <div id="content">
+            <div class="container" style="margin-bottom: 50px">
+                <div class="row">
+                    <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
+                        <h1 id="title">Dictionaries and While Loops</h1>
+                        <h2 id="subtitle">Module 5</h2>
+                        
+                        <div id="post-content">
+                          
+                          
+                              
 
-            
-            <li class="next disabled"><a href="#">next &rarr;</a></li>
-            
-        </ul>
-      </div>
-    <div class="footer">
+<h1 id="what-are-dictionaries">What are Dictionaries?</h1>
+
+<blockquote>
+<p>Dictionaries are another type of data structure. They are used to associate a unique id with its value. This association is referred to as a
+key-value pair.</p>
+</blockquote>
+
+<h1 id="a-weakness-of-lists">A Weakness of Lists</h1>
+
+<blockquote>
+<p>Recall that with lists, our indices had to be integers. You will soon see with dictionaries that our indices do not have to be integers.</p>
+</blockquote>
+
+<h1 id="how-can-i-create-a-dictionary">How can I create a Dictionary?</h1>
+
+<blockquote>
+<p>Easy. Here is an example on creating an empty dictionary:</p>
+</blockquote>
+
+<pre><code>a = {}
+</code></pre>
+
+<blockquote>
+<p>Do NOT confuse this syntax with the syntax for creating a list: a = []</p>
+</blockquote>
+
+<p>Dictionary representing users at a bank:</p>
+
+<pre><code>Ross = {'Name': 'Ross', 'ID': 1234567890, 'Money': 4000.00}
+Joey = {'Name': 'Joey', 'ID': 0987654321, 'Money': 222.30}
+</code></pre>
+
+<blockquote>
+<p>The key is the string to the left of the colon. Its respective value is the element to the right of the colon. In the example above,
+the key include: Name, ID &amp; Money.</p>
+</blockquote>
+
+<h1 id="how-do-i-access-elements-in-the-dictionary">How do I access elements in the Dictionary?</h1>
+
+<blockquote>
+<p>Unlike lists, you can index dictionaries with strings. For example:</p>
+</blockquote>
+
+<pre><code>Ross['Name'] ==&gt; Ross
+Joey['ID'] ==&gt; 0987654321
+Joey['Money'] ==&gt; 222.30
+</code></pre>
+
+<h1 id="updating-elements-in-a-list">Updating Elements in a List</h1>
+
+<blockquote>
+<p>To update how much money someone has in their account, you use the same indexing structure. For example:</p>
+</blockquote>
+
+<pre><code>Ross['Money'] = 5000
+</code></pre>
+
+<h1 id="while-loops">While Loops</h1>
+
+<blockquote>
+<p>Last module, we learned about For loops. This week, we will learn about While loops.</p>
+</blockquote>
+
+<pre><code>x = 10
+while (x &gt; 0):
+	print x
+	x -= 1
+</code></pre>
+
+<blockquote>
+<p>What do you think the line above code above will print?</p>
+</blockquote>
+
+<pre><code>x = 10
+while (x &gt; 0):
+	print x
+</code></pre>
+
+<blockquote>
+<p>How about now? What will this modified code print?</p>
+</blockquote>
+
+<h1 id="activity-you-are-the-banker">Activity - You are the banker</h1>
+
+<blockquote>
+<p>You are a banker at the biggest bank in the country. 6 friends come up to you and ask you to update various items relating to their accounts. Please
+help them. Each bank account is a dictionary that looks like the following:</p>
+</blockquote>
+
+<pre><code>Ross = {'Name': 'Ross', 'ID': 1234567890, 'Checking': 4000.00, 'Savings': 2200.89}
+</code></pre>
+
+<p><strong>Activity Steps</strong>:</p>
+
+<ol>
+<li><p><code>git clone https://github.com/icodecamp/module5_banking.git</code></p></li>
+
+<li><p><code>cd module5_banking</code></p></li>
+
+<li><p>Run: python banking.py.</p></li>
+
+<li><p>Follow the directions that the script tells you</p></li>
+</ol>
+
+                          
+                        </div>
+                        
+                        
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
 	<p>
 	  created by <a href="https://github.com/icodecamp/icodecamp.github.io/blob/dev/shoulders.md"> standing on the shoulders of giants</a>
 	</p>

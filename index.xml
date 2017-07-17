@@ -503,6 +503,120 @@ image[1, 1] -&amp;gt; Represents the lower right corner of the image
     </item>
     
     <item>
+      <title>Dictionaries and While Loops</title>
+      <link>https://icodecamp.github.io/lessons/5-data-structures-dictionaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/5-data-structures-dictionaries/</guid>
+      <description>
+
+&lt;h1 id=&#34;what-are-dictionaries&#34;&gt;What are Dictionaries?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Dictionaries are another type of data structure. They are used to associate a unique id with its value. This association is referred to as a
+key-value pair.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;a-weakness-of-lists&#34;&gt;A Weakness of Lists&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Recall that with lists, our indices had to be integers. You will soon see with dictionaries that our indices do not have to be integers.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;how-can-i-create-a-dictionary&#34;&gt;How can I create a Dictionary?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Easy. Here is an example on creating an empty dictionary:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;a = {}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Do NOT confuse this syntax with the syntax for creating a list: a = []&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Dictionary representing users at a bank:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Ross = {&#39;Name&#39;: &#39;Ross&#39;, &#39;ID&#39;: 1234567890, &#39;Money&#39;: 4000.00}
+Joey = {&#39;Name&#39;: &#39;Joey&#39;, &#39;ID&#39;: 0987654321, &#39;Money&#39;: 222.30}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The key is the string to the left of the colon. Its respective value is the element to the right of the colon. In the example above,
+the key include: Name, ID &amp;amp; Money.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;how-do-i-access-elements-in-the-dictionary&#34;&gt;How do I access elements in the Dictionary?&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Unlike lists, you can index dictionaries with strings. For example:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;Ross[&#39;Name&#39;] ==&amp;gt; Ross
+Joey[&#39;ID&#39;] ==&amp;gt; 0987654321
+Joey[&#39;Money&#39;] ==&amp;gt; 222.30
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;updating-elements-in-a-list&#34;&gt;Updating Elements in a List&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;To update how much money someone has in their account, you use the same indexing structure. For example:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;Ross[&#39;Money&#39;] = 5000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&#34;while-loops&#34;&gt;While Loops&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Last module, we learned about For loops. This week, we will learn about While loops.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;x = 10
+while (x &amp;gt; 0):
+	print x
+	x -= 1
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;What do you think the line above code above will print?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;x = 10
+while (x &amp;gt; 0):
+	print x
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;How about now? What will this modified code print?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;activity-you-are-the-banker&#34;&gt;Activity - You are the banker&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;You are a banker at the biggest bank in the country. 6 friends come up to you and ask you to update various items relating to their accounts. Please
+help them. Each bank account is a dictionary that looks like the following:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code&gt;Ross = {&#39;Name&#39;: &#39;Ross&#39;, &#39;ID&#39;: 1234567890, &#39;Checking&#39;: 4000.00, &#39;Savings&#39;: 2200.89}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;Activity Steps&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;git clone https://github.com/icodecamp/module5_banking.git&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;cd module5_banking&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Run: python banking.py.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Follow the directions that the script tells you&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Application</title>
       <link>https://icodecamp.github.io/apply/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
