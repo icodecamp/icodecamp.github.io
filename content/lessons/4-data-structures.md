@@ -4,7 +4,7 @@ tags = []
 title = "Lists and Loops"
 subtitle = "Module 4"
 description = "Learn about lists and for loops" 
-bannerImage = "img/banners/image.png"
+bannerImage = "img/banners/pickachu.png"
 isBeta = false
 +++
 
