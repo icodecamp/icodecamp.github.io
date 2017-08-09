@@ -617,6 +617,114 @@ help them. Each bank account is a dictionary that looks like the following:&lt;/
     </item>
     
     <item>
+      <title>Keep Learning</title>
+      <link>https://icodecamp.github.io/lessons/7-additional-resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/7-additional-resources/</guid>
+      <description>
+
+&lt;h1 id=&#34;github-command-line&#34;&gt;GitHub/ Command Line&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-the-command-line&#34;&gt;&lt;strong&gt;Interactive Command Line Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/watch?v=iDbwYI4qntw&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-git&#34;&gt;&lt;strong&gt;Interactive Github Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/watch?v=TlsLj0jE8e0&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;python&#34;&gt;Python&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/tracks/python&#34;&gt;&lt;strong&gt;Interactive Python Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/watch?v=2dmBp5RydwE&amp;amp;list=PL-J2q3Ga50oOM14s1fbxVVjRA3zZR14cR&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Basic Tutorial on Python and setting it up on your own machine&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/LaleTNnNFVE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h1 id=&#34;web-programming&#34;&gt;Web Programming&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.codecademy.com/learn/learn-html-css&#34;&gt;&lt;strong&gt;Interactive HTML and CSS Tutorial&lt;/strong&gt;&lt;/a&gt;. Stuck? &lt;a href=&#34;https://www.youtube.com/playlist?list=PLNEKkZrJ3NV8EdSA2vcdiU5udHVVbBve0&#34;&gt;&lt;strong&gt;Solutions&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://dash.generalassemb.ly/&#34;&gt;&lt;strong&gt;General Assembly&lt;/strong&gt;&lt;/a&gt; has numerous tutorial on creating reponsive websites and web games.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=-OcUaGPkBX4&amp;amp;feature=youtu.be&#34;&gt;&lt;strong&gt;Launch your own Website&lt;/strong&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/OcUaGPkBX4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;h1 id=&#34;khan-academy&#34;&gt;Khan Academy&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.khanacademy.org/computing/computer-programming&#34;&gt;&lt;strong&gt;Khan Academy&lt;/strong&gt;&lt;/a&gt; has video tutorials with guided execises. Learn javascript and web programming through fun projects.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&#34;what-about-the-gift-adruinos&#34;&gt;What about the Gift? Adruinos!&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.elegoo.com/download/&#34;&gt;&lt;strong&gt;Starter Kit Guide&lt;/strong&gt;&lt;/a&gt; download Elegoo UNO R3 Project Basic Starter Kit Guide. Step by step guide to help you download the proper software and do fun projects with your arduino.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/CqrQmQqpHXc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Recap</title>
+      <link>https://icodecamp.github.io/lessons/6-recap/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/6-recap/</guid>
+      <description>
+
+&lt;h1 id=&#34;goals-recap&#34;&gt;Goals/Recap&lt;/h1&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Introduction to programming environment&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What is Github.&lt;/li&gt;
+&lt;li&gt;How to clone a repo from Github&lt;/li&gt;
+&lt;li&gt;How to do basic command line operations (create a file, enter a directory, etc)&lt;/li&gt;
+&lt;li&gt;Launch the python shell.&lt;/li&gt;
+&lt;li&gt;Using Sublime Text&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Get familiar with programming concepts&lt;/strong&gt;
+
+&lt;ul&gt;
+&lt;li&gt;What a programming language is&lt;/li&gt;
+&lt;li&gt;Variables and functions -&amp;gt; Launch google search&lt;/li&gt;
+&lt;li&gt;Conditional Statements -&amp;gt; Snake Game&lt;/li&gt;
+&lt;li&gt;Lists and Loops -&amp;gt; Image manipulation&lt;/li&gt;
+&lt;li&gt;Dictionaries and Loops -&amp;gt; Banker game&lt;br&gt;&lt;br&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Remove fear so you can continue learning on your own&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&#34;why-you-should-care&#34;&gt;Why you should care?&lt;/h1&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/nKIu9yen5nc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Application</title>
       <link>https://icodecamp.github.io/apply/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
