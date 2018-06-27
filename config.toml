@@ -14,21 +14,27 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    name = "Lessons"
-    url  = "/lessons/"
+    name = "2017"
+    url  = "/lessons/2017"
     weight = 2
+
+[[menu.main]]
+    name = "2018"
+    url  = "/lessons/2018"
+    weight = 3
+
 
 [[menu.main]]
     name = "FAQ"
     identifier = "faq"
     url  = "/faq/"
-    weight = 3
+    weight = 4
 
 # [[menu.main]]
 #    name = "Application"
 #    identifier = "apply"
 #    url  = "/apply/"
-#    weight = 4
+#    weight = 5
 
 [params]
     # for the application form
