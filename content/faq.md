@@ -10,30 +10,26 @@ Programming is a way to tell a computer what to do with a series of commands. It
 
 ## What are the dates for Code Camp?
 
-Camp dates are May 23 to August 8, 2017. You should choose one date for each lesson:
+Camp dates are July 14 to August 8, 2018. You should choose one date for each lesson:
 
-* Lesson one: May 23 and/or May 30
-* Lesson two: June 6 and/or June 13
-* Lesson three: June 20 and/or June 27
-* Lesson four: July 6 and/or July 13 (classes will be held on Thursdays this week)
-* Lesson five: July 18 and/or July 25
-* Lesson six: August 1 and/or August 8
-
-## Why are there two classes for each lesson?
-
-Some of the feedback we got after our pilot Code Camp in 2016 was that it is difficult for students to complete the course in the summer because of travel plans and jamati activities. Providing two dates for each lesson allows students to plan their attendance at Camp around any travel plans they may already have. This also allows students to attend a lesson twice to review concepts or spend extra time with instructors for a particularly difficult lesson. 
+* Lesson one: July 14
+* Lesson two: July 21
+* Lesson three: July 28
+* Lesson four: August 4
+* Lesson five: August 11
+* Lesson six: August 18
 
 ## When and where are classes held?
 
-Each class will be held in the Chicago Ismaili Jamatkhana conference room from 8:15pm to 9:30pm. 
+Each class will be held in the Chicago Ismaili Jamatkhana conference room from 9:00am to 12:00pm. 
 
 ## How are classes structured?
 
-Each class will cover an important programming or Python concept. You will be required to complete homework assignments and "push" code to Github -- this means your code will be sent to a public folder where your instructors for review.
+During each class, we will cover watch videos on Khan Academy and will complete relevant activities on Khan Academy. Instructors will be available to assist with problems and answer any questions. However, each class will be self-paced. 
 
 ## Who are the instructors?
 
-Your instructors this year are Khurram Ghulamani, Danish Noorani and Taufiq Dhanani.
+Your instructors this year are Khurram Ghullamani, Danish Noorani and Faiza Lalani.
 
 ## What should I bring to each class?
 
