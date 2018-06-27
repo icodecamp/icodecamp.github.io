@@ -15,12 +15,12 @@ paginate = 10
 
 [[menu.main]]
     name = "2017"
-    url  = "/lessons/2017"
+    url  = "/lessons/"
     weight = 2
 
 [[menu.main]]
     name = "2018"
-    url  = "/lessons/2018"
+    url  = "/lessons/2018/"
     weight = 3
 
 
