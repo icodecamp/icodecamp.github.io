@@ -6,16 +6,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Conditional Statements</title>
+  <title>Dictionaries and While Loops</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
   
-  <meta name="description" content="Learn about lists and dictionaries">
+  <meta name="description" content="Learn about dictionaries and while loops">
   
 
-  <meta name="generator" content="Hugo 0.19" />
+  <meta name="generator" content="Hugo 0.16" />
 
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
@@ -117,114 +117,117 @@
             <div class="container" style="margin-bottom: 50px">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
-                        <h1 id="title">Conditional Statements</h1>
-                        <h2 id="subtitle">Module 3</h2>
+                        <h1 id="title">Dictionaries and While Loops</h1>
+                        <h2 id="subtitle">Module 5</h2>
                         
                         <div id="post-content">
                           
                           
                               
 
-<h1 id="what-are-the-three-conditional-statements">What are the three conditional statements?</h1>
+<h1 id="what-are-dictionaries">What are Dictionaries?</h1>
 
 <blockquote>
-<p>Open-source software (OSS) is computer software with its source code made available with a license in which the copyright holder provides the rights to study, change, and distribute the software to anyone and for any purpose.</p>
+<p>Dictionaries are another type of data structure. They are used to associate a unique id with its value. This association is referred to as a
+key-value pair.</p>
 </blockquote>
 
-<p>iCodeCamp is a great example of the open source community. All of our source code and materials are accessible for free from practically anywhere to be used for practically any purpose. <strong>Github</strong> is a platform that stores your code, but also lets other people access it and build off of it.</p>
-
-<p><strong>Today we are going to fork this project:</strong> <a href="https://github.com/icodecamp/module3_snake">https://github.com/icodecamp/module3_snake</a></p>
-
-<p>This project uses an external <a href="https://askubuntu.com/questions/361741/what-are-dependencies"><strong>dependency</strong></a> called <code>pygame</code>. Be sure to install pygame with python&rsquo;s <a href="https://en.wikipedia.org/wiki/Package_manager"><strong>package manager</strong></a> by typing in <code>pip install pygame</code> in either terminal or GitBash.</p>
-
-<h1 id="what-is-flow-control">What is Flow Control?</h1>
+<h1 id="a-weakness-of-lists">A Weakness of Lists</h1>
 
 <blockquote>
-<p><a href="http://www.openbookproject.net/books/bpp4awd/ch04.html"><strong>Conditional statements</strong></a> allow us to run some code only if a condition is met</p>
+<p>Recall that with lists, our indices had to be integers. You will soon see with dictionaries that our indices do not have to be integers.</p>
 </blockquote>
 
-<h3 id="if-statements">if statements</h3>
+<h1 id="how-can-i-create-a-dictionary">How can I create a Dictionary?</h1>
 
-<pre><code>if {BOOLEAN EXPRESSION}:
-    {STATEMENTS}
+<blockquote>
+<p>Easy. Here is an example on creating an empty dictionary:</p>
+</blockquote>
+
+<pre><code>a = {}
 </code></pre>
 
-<p>example:</p>
+<blockquote>
+<p>Do NOT confuse this syntax with the syntax for creating a list: a = []</p>
+</blockquote>
 
-<pre><code>a = 5
+<p>Dictionary representing users at a bank:</p>
 
-if a == 5:
-    print(&quot;a is 5&quot;)
-    print(&quot;this will totally print&quot;)
-    return
-if a != 5:
-    print(&quot;a is not five&quot;)
-    print(&quot;this will totally not print&quot;)
-    return
+<pre><code>Ross = {'Name': 'Ross', 'ID': 1234567890, 'Money': 4000.00}
+Joey = {'Name': 'Joey', 'ID': 0987654321, 'Money': 222.30}
 </code></pre>
 
-<h3 id="if-else-statements">if else statements</h3>
+<blockquote>
+<p>The key is the string to the left of the colon. Its respective value is the element to the right of the colon. In the example above,
+the key include: Name, ID &amp; Money.</p>
+</blockquote>
 
-<pre><code>if {BOOLEAN EXPRESSION}:
-    {STATEMENTS_1}        # executed if condition evaluates to True
-else:
-    {STATEMENTS_2}        # executed if condition evaluates to False
+<h1 id="how-do-i-access-elements-in-the-dictionary">How do I access elements in the Dictionary?</h1>
+
+<blockquote>
+<p>Unlike lists, you can index dictionaries with strings. For example:</p>
+</blockquote>
+
+<pre><code>Ross['Name'] ==&gt; Ross
+Joey['ID'] ==&gt; 0987654321
+Joey['Money'] ==&gt; 222.30
 </code></pre>
 
-<p>example:</p>
+<h1 id="updating-elements-in-a-list">Updating Elements in a List</h1>
 
-<pre><code>a = 5
+<blockquote>
+<p>To update how much money someone has in their account, you use the same indexing structure. For example:</p>
+</blockquote>
 
-if a == 5:
-    print(&quot;a is 5&quot;)
-    print(&quot;this will totally print&quot;)
-    return
-else:
-    print(&quot;a is not five&quot;)
-    print(&quot;this will totally not print&quot;)
-    return
+<pre><code>Ross['Money'] = 5000
 </code></pre>
 
-<h3 id="chained-conditionals">chained conditionals</h3>
+<h1 id="while-loops">While Loops</h1>
 
-<pre><code>if {BOOLEAN EXPRESSION1}:
-    {STATEMENTS_A}
-elif{BOOLEAN EXPRESSION2}:
-  {STATEMENTS_B}
-else:
-    {STATEMENTS_C}
+<blockquote>
+<p>Last module, we learned about For loops. This week, we will learn about While loops.</p>
+</blockquote>
+
+<pre><code>x = 10
+while (x &gt; 0):
+	print x
+	x -= 1
 </code></pre>
 
-<p>example:</p>
+<blockquote>
+<p>What do you think the line above code above will print?</p>
+</blockquote>
 
-<pre><code>a = 5
-
-if a == 1:
-    print(&quot;a is 1&quot;)
-elif a != 300:
-    print(&quot;a is not equal to 300&quot;)
-elif a &gt; 5:
-    print(&quot;a is greater than 5&quot;)
-elif a &lt; 5:
-    print(&quot;a is less than 5&quot;)
-else:
-    print(&quot;a is 5&quot;)
+<pre><code>x = 10
+while (x &gt; 0):
+	print x
 </code></pre>
 
-<h1 id="project-snake">Project Snake</h1>
+<blockquote>
+<p>How about now? What will this modified code print?</p>
+</blockquote>
 
-<p>This project is an open source game in which a hungry snake roams around a field in search of sparkling food. Your task is to implement the conditional statements required to make the snake move around.</p>
+<h1 id="activity-you-are-the-banker">Activity - You are the banker</h1>
+
+<blockquote>
+<p>You are a banker at the biggest bank in the country. 6 friends come up to you and ask you to update various items relating to their accounts. Please
+help them. Each bank account is a dictionary that looks like the following:</p>
+</blockquote>
+
+<pre><code>Ross = {'Name': 'Ross', 'ID': 1234567890, 'Checking': 4000.00, 'Savings': 2200.89}
+</code></pre>
+
+<p><strong>Activity Steps</strong>:</p>
 
 <ol>
-<li>If you haven&rsquo;t done so already, fork the <a href="https://github.com/icodecamp/module3_snake"><strong>project</strong></a> and clone it to your desktop</li>
-<li>The project depends on an open source package called &ldquo;pygame.&rdquo; Use the command <code>pip install pygame</code> in either GitBash or Terminal to install it.</li>
-<li>Open up the file <code>snake.py</code> in sublime text.</li>
-<li>Notice that the first line of the file is <code>import pygame</code> this allows us to use the pygame in our game</li>
-<li>Scroll to the bottom of the file. Fill in the missing segments using <strong>if</strong>, <strong>elif</strong>, and <strong>else</strong> statements. The function should either return <code>move_up</code>, <code>move_down</code>, <code>move_left</code>, or <code>move_right</code>.</li>
-<li>Run the game by typing in <code>python game.py</code> in the directory of the project on either GitBash or Terminal</li>
-</ol>
+<li><p><code>git clone https://github.com/icodecamp/module5_banking.git</code></p></li>
 
-<p>If you are having trouble with the code, you can find the solutions <a href="https://github.com/icodecamp/module3_snake/blob/master/snake_solution.py"><strong>here</strong></a></p>
+<li><p><code>cd module5_banking</code></p></li>
+
+<li><p>Run: python banking.py.</p></li>
+
+<li><p>Follow the directions that the script tells you</p></li>
+</ol>
 
                           
                         </div>

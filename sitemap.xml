@@ -2,6 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://icodecamp.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://icodecamp.github.io/apply/</loc>
+  </url>
+  
+  <url>
+    <loc>https://icodecamp.github.io/faq/</loc>
+  </url>
+  
+  <url>
+    <loc>https://icodecamp.github.io/lessons/0-introduction/</loc>
+  </url>
+  
+  <url>
     <loc>https://icodecamp.github.io/lessons/1-git-terminal/</loc>
   </url>
   
@@ -27,38 +43,6 @@
   
   <url>
     <loc>https://icodecamp.github.io/lessons/6-recap/</loc>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/apply/</loc>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/faq/</loc>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/lessons/0-introduction/</loc>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/tags/ipsum/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/lessons/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://icodecamp.github.io/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -6,16 +6,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Lists and Loops</title>
+  <title>Keep Learning</title>
 
   <meta name="author" content="" />
   <meta name="keywords" content="">
 
   
-  <meta name="description" content="Learn about lists and for loops">
+  <meta name="description" content="Awesome online resources to keep Learning">
   
 
-  <meta name="generator" content="Hugo 0.19" />
+  <meta name="generator" content="Hugo 0.16" />
 
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
@@ -117,116 +117,69 @@
             <div class="container" style="margin-bottom: 50px">
                 <div class="row">
                     <div class="col-md-offset-2 col-md-8 col-sm-12 col-sm-offset-0">
-                        <h1 id="title">Lists and Loops</h1>
-                        <h2 id="subtitle">Module 4</h2>
+                        <h1 id="title">Keep Learning</h1>
+                        <h2 id="subtitle">Additional Resources</h2>
                         
                         <div id="post-content">
                           
                           
                               
 
-<h1 id="what-are-lists">What are Lists?</h1>
+<h1 id="github-command-line">GitHub/ Command Line</h1>
 
 <blockquote>
-<p>Lists are the most versatile datatype available in Python which can be written as a list of comma-separated values (items) between square brackets. Important thing about a list is that items in a list need not be of the same type.</p>
+<p><a href="https://www.codecademy.com/learn/learn-the-command-line"><strong>Interactive Command Line Tutorial</strong></a>. Stuck? <a href="https://www.youtube.com/watch?v=iDbwYI4qntw"><strong>Solutions</strong></a></p>
+
+<p><a href="https://www.codecademy.com/learn/learn-git"><strong>Interactive Github Tutorial</strong></a>. Stuck? <a href="https://www.youtube.com/watch?v=TlsLj0jE8e0"><strong>Solutions</strong></a></p>
 </blockquote>
 
-<h1 id="how-can-i-create-a-list">How can I create a List?</h1>
-
-<p>Easy. Here is an example on creating an empty list:</p>
-
-<pre><code>a = []
-</code></pre>
-
-<p>List with integers:</p>
-
-<pre><code>a = [1, 2, 3]
-</code></pre>
-
-<p>List with integers, strings, booleans, floats, and list:</p>
-
-<pre><code>a = [1, &quot;hello&quot;, True, 4.0, [1, 2, 3]]
-</code></pre>
-
-<h1 id="how-do-i-access-elements-in-the-list">How do I access elements in the List?</h1>
-
-<p>You can simply access in the elements in a list using bracket notation. The only tricky part is remembering that the first element in the list is at index 0, the second element is at index 1, and so on.</p>
-
-<p>Example:</p>
-
-<pre><code>a = [1, &quot;hello&quot;, True, 4.0]
-
-print(a[0]) -&gt; prints 1
-print(a[1]) -&gt; prints &quot;hello&quot;
-print(a[2]) -&gt; prints True
-print(a[3]) -&gt; prints 4.0
-
-</code></pre>
-
-<p>Is there an easier way of printing every element in a list?</p>
-
-<p>Yeah. You can use Loops.</p>
-
-<h1 id="what-are-loops">What are Loops?</h1>
-
-<p>There are two types of loops in Python, <strong>for</strong> and <strong>while</strong>.</p>
+<h1 id="python">Python</h1>
 
 <blockquote>
-<p><a href="https://wiki.python.org/moin/ForLoop"><strong>For loops</strong></a> are traditionally used when you have a block of code which you want to repeat a fixed number of times. The Python for statement iterates over the members of a sequence in order, executing the block each time.</p>
+<p><a href="https://www.codecademy.com/tracks/python"><strong>Interactive Python Tutorial</strong></a>. Stuck? <a href="https://www.youtube.com/watch?v=2dmBp5RydwE&amp;list=PL-J2q3Ga50oOM14s1fbxVVjRA3zZR14cR"><strong>Solutions</strong></a></p>
+
+<p>Basic Tutorial on Python and setting it up on your own machine</p>
 </blockquote>
 
-<p>Example of printing all numbers between one and a hundred:</p>
 
-<pre><code>for x in range(1, 101):
-	print(x)
-</code></pre>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/LaleTNnNFVE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
 
-<p>Example of printing all elements in a list:</p>
 
-<pre><code>a = [1, &quot;hello&quot;, True, 4.0]
+<h1 id="web-programming">Web Programming</h1>
 
-for element in a:
-	print(element)
-</code></pre>
+<blockquote>
+<p><a href="https://www.codecademy.com/learn/learn-html-css"><strong>Interactive HTML and CSS Tutorial</strong></a>. Stuck? <a href="https://www.youtube.com/playlist?list=PLNEKkZrJ3NV8EdSA2vcdiU5udHVVbBve0"><strong>Solutions</strong></a></p>
 
-<h1 id="activity-editing-images-with-loops">Activity - Editing images with loops</h1>
+<p><a href="https://dash.generalassemb.ly/"><strong>General Assembly</strong></a> has numerous tutorial on creating reponsive websites and web games.</p>
 
-<p>An image is often represented as a list of lists. Where each element of the outer most list is a list that represents the first row of the image. The inner list contains tuples of rgb values: (r, g, b). The first element represents the red pixel value, the second represents green pixel value, and the third is the blue pixel value.</p>
+<p><a href="https://www.youtube.com/watch?v=-OcUaGPkBX4&amp;feature=youtu.be"><strong>Launch your own Website</strong></a>:</p>
+</blockquote>
 
-<p>This is an example of a 2x2 image:</p>
 
-<pre><code>imageA = [[(0, 0, 0), (255, 255,255)], [(0, 0, 0), (255, 255,255)]]
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/OcUaGPkBX4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
 
-image[0, 0] -&gt; Represents the upper left corner of the image
 
-image[0, 1] -&gt; Represents the upper right corner of the image
+<h1 id="khan-academy">Khan Academy</h1>
 
-image[1, 0] -&gt; Represents the lower left corner of the image
+<blockquote>
+<p><a href="https://www.khanacademy.org/computing/computer-programming"><strong>Khan Academy</strong></a> has video tutorials with guided execises. Learn javascript and web programming through fun projects.</p>
+</blockquote>
 
-image[1, 1] -&gt; Represents the lower right corner of the image
-</code></pre>
+<h1 id="what-about-the-gift-adruinos">What about the Gift? Adruinos!</h1>
 
-<p><strong>Activity Steps</strong>:</p>
+<blockquote>
+<p><a href="http://www.elegoo.com/download/"><strong>Starter Kit Guide</strong></a> download Elegoo UNO R3 Project Basic Starter Kit Guide. Step by step guide to help you download the proper software and do fun projects with your arduino.</p>
+</blockquote>
 
-<ol>
-<li><p><code>pip install pillow</code></p></li>
 
-<li><p><code>git clone https://github.com/icodecamp/module4_imageProcessing.git</code></p></li>
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/CqrQmQqpHXc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
 
-<li><p><code>cd module4_imageProcessing</code></p></li>
-
-<li><p>Replace all ??? in the <strong>transfrom_image()</strong> in <strong>transformImage.py</strong> with the correct code.</p></li>
-
-<li><p><code>python transformImage.py</code></p></li>
-
-<li><p>Enter path of the desired image (i.e <code>pikachu.png</code>)</p></li>
-
-<li><p>Enter path of the new image (i.e <code>gray_pikachu.png</code>)</p></li>
-
-<li><p>Look at your new image by <code>open gray_pikachu.png</code></p></li>
-
-<li><p>Change the code again to tranform your image into new colors.</p></li>
-</ol>
 
                           
                         </div>

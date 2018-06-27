@@ -2,12 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>iCodeCamp</title>
-    <link>https://icodecamp.github.io/index.xml</link>
+    <link>https://icodecamp.github.io/</link>
     <description>Recent content on iCodeCamp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2017 iCodeCamp</copyright>
     <atom:link href="https://icodecamp.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Application</title>
+      <link>https://icodecamp.github.io/apply/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/apply/</guid>
+      <description>&lt;p&gt;The application for iCodeCamp 2017 is &lt;strong&gt;closed&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Will the application be opened again in May 2018?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;absolutely&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- 2016 information
+
++++
+title = &#34;Application&#34;
+subtitle = &#34;make your summer productive&#34;
+id = &#34;apply&#34;
+showForm = false
++++
+
+Code Camp 2017 will be held every Tuesday from __May 23__ to __August 8__. The class is six weeks long; there will be a new lesson every two weeks. This gives you the opportunity to schedule classes amidst any travel plans you may have this summer.
+
+* __Requirement:__ Space is limited and demand is high so, if you&#39;re selected to join the class, you must commit to attending every lesson.
+* __Time commitment:__ 3 hours per week
+* __Location:__ Chicago Ismaili Jamatkhana Conference Room 
+
+ --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Frequent Questions</title>
+      <link>https://icodecamp.github.io/faq/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/faq/</guid>
+      <description>
+
+&lt;h2 id=&#34;what-is-programming&#34;&gt;What is programming?&lt;/h2&gt;
+
+&lt;p&gt;Programming is a way to tell a computer what to do with a series of commands. It is increasingly being used in all kinds of fields &amp;ndash; from law to journalism to filmmaking. Check out &lt;a href=&#34;https://www.youtube.com/watch?time_continue=6&amp;amp;v=FCMxA3m_Imc&#34;&gt;this two-minute video&lt;/a&gt; on what programming is, or &lt;a href=&#34;https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/&#34;&gt;this interesting article&lt;/a&gt; to get more background.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-are-the-dates-for-code-camp&#34;&gt;What are the dates for Code Camp?&lt;/h2&gt;
+
+&lt;p&gt;Camp dates are May 23 to August 8, 2017. You should choose one date for each lesson:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lesson one: May 23 and/or May 30&lt;/li&gt;
+&lt;li&gt;Lesson two: June 6 and/or June 13&lt;/li&gt;
+&lt;li&gt;Lesson three: June 20 and/or June 27&lt;/li&gt;
+&lt;li&gt;Lesson four: July 6 and/or July 13 (classes will be held on Thursdays this week)&lt;/li&gt;
+&lt;li&gt;Lesson five: July 18 and/or July 25&lt;/li&gt;
+&lt;li&gt;Lesson six: August 1 and/or August 8&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;why-are-there-two-classes-for-each-lesson&#34;&gt;Why are there two classes for each lesson?&lt;/h2&gt;
+
+&lt;p&gt;Some of the feedback we got after our pilot Code Camp in 2016 was that it is difficult for students to complete the course in the summer because of travel plans and jamati activities. Providing two dates for each lesson allows students to plan their attendance at Camp around any travel plans they may already have. This also allows students to attend a lesson twice to review concepts or spend extra time with instructors for a particularly difficult lesson.&lt;/p&gt;
+
+&lt;h2 id=&#34;when-and-where-are-classes-held&#34;&gt;When and where are classes held?&lt;/h2&gt;
+
+&lt;p&gt;Each class will be held in the Chicago Ismaili Jamatkhana conference room from 8:15pm to 9:30pm.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-are-classes-structured&#34;&gt;How are classes structured?&lt;/h2&gt;
+
+&lt;p&gt;Each class will cover an important programming or Python concept. You will be required to complete homework assignments and &amp;ldquo;push&amp;rdquo; code to Github &amp;ndash; this means your code will be sent to a public folder where your instructors for review.&lt;/p&gt;
+
+&lt;h2 id=&#34;who-are-the-instructors&#34;&gt;Who are the instructors?&lt;/h2&gt;
+
+&lt;p&gt;Your instructors this year are Khurram Ghulamani, Danish Noorani and Taufiq Dhanani.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-should-i-bring-to-each-class&#34;&gt;What should I bring to each class?&lt;/h2&gt;
+
+&lt;p&gt;Please bring a laptop and a whole bunch of enthusiasm.&lt;/p&gt;
+
+&lt;h2 id=&#34;i-m-interested-in-helping-out-with-code-camp-this-summer-what-should-i-do&#34;&gt;I&amp;rsquo;m interested in helping out with Code Camp this summer. What should I do?&lt;/h2&gt;
+
+&lt;p&gt;Send us an email below! We&amp;rsquo;re always looking for helpers.&lt;/p&gt;
+
+&lt;hr /&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://icodecamp.github.io/lessons/0-introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://icodecamp.github.io/lessons/0-introduction/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-icodecamp&#34;&gt;Welcome to iCodeCamp&lt;/h1&gt;
+
+&lt;p&gt;There are &lt;strong&gt;three&lt;/strong&gt; steps you must complete before your first before class. If you run into trouble, no worries we&amp;rsquo;ll work with you during class. Good Luck!&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Install Sublime Text&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2.dmg&#34;&gt;&lt;strong&gt;download link for Mac&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2a%20x64%20Setup.exe&#34;&gt;&lt;strong&gt;download link for Windows&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2a%20Setup.exe&#34;&gt;&lt;strong&gt;alternative download link for windows x86&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create Github Account&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/join?source=header-home&#34;&gt;&lt;strong&gt;create a free username and password&lt;/strong&gt;&lt;/a&gt; &lt;em&gt;and make sure you remember your credentials :)&lt;/em&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Installing Git&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;mac users&lt;/strong&gt; open the application called &amp;ldquo;terminal&amp;rdquo; and type &lt;code&gt;git --version&lt;/code&gt; in the black box that appears.&lt;/p&gt;
+
+&lt;p&gt;If you get a response similar to &lt;code&gt;git version #.##.# (Apple Git-78)&lt;/code&gt;, then you&amp;rsquo;re good. Otherwise, download git from &lt;a href=&#34;https://git-scm.com/download/mac&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;windows users&lt;/strong&gt; follow the instructions for windows &lt;a href=&#34;https://www.edureka.co/blog/install-git/&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Terminal and Git</title>
@@ -721,134 +848,6 @@ help them. Each bank account is a dictionary that looks like the following:&lt;/
   &lt;iframe src=&#34;//www.youtube.com/embed/nKIu9yen5nc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
  &lt;/div&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Application</title>
-      <link>https://icodecamp.github.io/apply/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icodecamp.github.io/apply/</guid>
-      <description>&lt;p&gt;The application for iCodeCamp 2017 is &lt;strong&gt;closed&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Will the application be opened again in May 2018?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;absolutely&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;!-- 2016 information
-
-+++
-title = &#34;Application&#34;
-subtitle = &#34;make your summer productive&#34;
-id = &#34;apply&#34;
-showForm = false
-+++
-
-Code Camp 2017 will be held every Tuesday from __May 23__ to __August 8__. The class is six weeks long; there will be a new lesson every two weeks. This gives you the opportunity to schedule classes amidst any travel plans you may have this summer.
-
-* __Requirement:__ Space is limited and demand is high so, if you&#39;re selected to join the class, you must commit to attending every lesson.
-* __Time commitment:__ 3 hours per week
-* __Location:__ Chicago Ismaili Jamatkhana Conference Room 
-
- --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Frequent Questions</title>
-      <link>https://icodecamp.github.io/faq/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icodecamp.github.io/faq/</guid>
-      <description>
-
-&lt;h2 id=&#34;what-is-programming&#34;&gt;What is programming?&lt;/h2&gt;
-
-&lt;p&gt;Programming is a way to tell a computer what to do with a series of commands. It is increasingly being used in all kinds of fields &amp;ndash; from law to journalism to filmmaking. Check out &lt;a href=&#34;https://www.youtube.com/watch?time_continue=6&amp;amp;v=FCMxA3m_Imc&#34;&gt;this two-minute video&lt;/a&gt; on what programming is, or &lt;a href=&#34;https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/&#34;&gt;this interesting article&lt;/a&gt; to get more background.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-are-the-dates-for-code-camp&#34;&gt;What are the dates for Code Camp?&lt;/h2&gt;
-
-&lt;p&gt;Camp dates are May 23 to August 8, 2017. You should choose one date for each lesson:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Lesson one: May 23 and/or May 30&lt;/li&gt;
-&lt;li&gt;Lesson two: June 6 and/or June 13&lt;/li&gt;
-&lt;li&gt;Lesson three: June 20 and/or June 27&lt;/li&gt;
-&lt;li&gt;Lesson four: July 6 and/or July 13 (classes will be held on Thursdays this week)&lt;/li&gt;
-&lt;li&gt;Lesson five: July 18 and/or July 25&lt;/li&gt;
-&lt;li&gt;Lesson six: August 1 and/or August 8&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;why-are-there-two-classes-for-each-lesson&#34;&gt;Why are there two classes for each lesson?&lt;/h2&gt;
-
-&lt;p&gt;Some of the feedback we got after our pilot Code Camp in 2016 was that it is difficult for students to complete the course in the summer because of travel plans and jamati activities. Providing two dates for each lesson allows students to plan their attendance at Camp around any travel plans they may already have. This also allows students to attend a lesson twice to review concepts or spend extra time with instructors for a particularly difficult lesson.&lt;/p&gt;
-
-&lt;h2 id=&#34;when-and-where-are-classes-held&#34;&gt;When and where are classes held?&lt;/h2&gt;
-
-&lt;p&gt;Each class will be held in the Chicago Ismaili Jamatkhana conference room from 8:15pm to 9:30pm.&lt;/p&gt;
-
-&lt;h2 id=&#34;how-are-classes-structured&#34;&gt;How are classes structured?&lt;/h2&gt;
-
-&lt;p&gt;Each class will cover an important programming or Python concept. You will be required to complete homework assignments and &amp;ldquo;push&amp;rdquo; code to Github &amp;ndash; this means your code will be sent to a public folder where your instructors for review.&lt;/p&gt;
-
-&lt;h2 id=&#34;who-are-the-instructors&#34;&gt;Who are the instructors?&lt;/h2&gt;
-
-&lt;p&gt;Your instructors this year are Khurram Ghulamani, Danish Noorani and Taufiq Dhanani.&lt;/p&gt;
-
-&lt;h2 id=&#34;what-should-i-bring-to-each-class&#34;&gt;What should I bring to each class?&lt;/h2&gt;
-
-&lt;p&gt;Please bring a laptop and a whole bunch of enthusiasm.&lt;/p&gt;
-
-&lt;h2 id=&#34;i-m-interested-in-helping-out-with-code-camp-this-summer-what-should-i-do&#34;&gt;I&amp;rsquo;m interested in helping out with Code Camp this summer. What should I do?&lt;/h2&gt;
-
-&lt;p&gt;Send us an email below! We&amp;rsquo;re always looking for helpers.&lt;/p&gt;
-
-&lt;hr /&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Getting started</title>
-      <link>https://icodecamp.github.io/lessons/0-introduction/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://icodecamp.github.io/lessons/0-introduction/</guid>
-      <description>
-
-&lt;h1 id=&#34;welcome-to-icodecamp&#34;&gt;Welcome to iCodeCamp&lt;/h1&gt;
-
-&lt;p&gt;There are &lt;strong&gt;three&lt;/strong&gt; steps you must complete before your first before class. If you run into trouble, no worries we&amp;rsquo;ll work with you during class. Good Luck!&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Install Sublime Text&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2.dmg&#34;&gt;&lt;strong&gt;download link for Mac&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2a%20x64%20Setup.exe&#34;&gt;&lt;strong&gt;download link for Windows&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://download.sublimetext.com/Sublime%20Text%202.0.2a%20Setup.exe&#34;&gt;&lt;strong&gt;alternative download link for windows x86&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Create Github Account&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/join?source=header-home&#34;&gt;&lt;strong&gt;create a free username and password&lt;/strong&gt;&lt;/a&gt; &lt;em&gt;and make sure you remember your credentials :)&lt;/em&gt;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Installing Git&lt;/strong&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;mac users&lt;/strong&gt; open the application called &amp;ldquo;terminal&amp;rdquo; and type &lt;code&gt;git --version&lt;/code&gt; in the black box that appears.&lt;/p&gt;
-
-&lt;p&gt;If you get a response similar to &lt;code&gt;git version #.##.# (Apple Git-78)&lt;/code&gt;, then you&amp;rsquo;re good. Otherwise, download git from &lt;a href=&#34;https://git-scm.com/download/mac&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;windows users&lt;/strong&gt; follow the instructions for windows &lt;a href=&#34;https://www.edureka.co/blog/install-git/&#34;&gt;&lt;strong&gt;here&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
